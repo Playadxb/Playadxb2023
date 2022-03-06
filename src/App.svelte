@@ -14,8 +14,8 @@
 				<button class=" bg-red h-full capitalize w-auto px-5"> notify me </button>
 			</div>
 		</div> -->
-		<div class="flex xl:flex-row flex-col md:flex-col w-2/3  m-auto notify-me-form xl:space-x-4 space-y-8 justify-center">
-			<img width="28px" class="self-center " src="/Mail_2.svg" />
+		<div class="flex xl:flex-row flex-col md:flex-col w-2/3  m-auto notify-me-form xl:space-x-4 xl:space-y-0 space-y-8 justify-center">
+			<img width="28px" class="self-center" src="/Mail_2.svg" />
 			<a href="mailto:reservations@playadxb.com" class="md:text-sm text-xs self-center ">reservations@playadxb.com</a>
 			<svg class="self-center" width="27" height="1" viewBox="0 0 27 1" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<line y1="0.5" x2="27" y2="0.5" stroke="white" />

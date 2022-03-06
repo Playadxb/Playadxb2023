@@ -49,7 +49,7 @@
 			url('/coming_soon_background.png');
 	}
 
-	/* main::before {
+	main::before {
 		content: "";
 		top: 0;
 		left: 0;
@@ -64,7 +64,7 @@
 		-moz-filter: blur(2px);
 		-o-filter: blur(2px);
 		-ms-filter: blur(2px);
-	} */
+	}
 
 	#email-input::placeholder {
 		font-style: italic;

@@ -2,8 +2,8 @@
 
 </script>
 
-<main class="h-full text-white main-content bg-cover bg-no-repeat">
-	<div class="flex flex-col px-5 justify-center relative w-screen logo text-center">
+<main class="h-max text-white main-content bg-cover bg-no-repeat">
+	<div class="flex flex-col px-5 justify-center relative w-screen logo text-center mb-5">
 		<img src="/playa-logo.svg" class="h-20 my-12 xl:h-28 md:h-20 xl:mt-16 xl:mb-16 md:mt-16 " alt="logo" />
 		<h1 class="uppercase font-bold text-white text-2xl xl:text-5xl xl:w-1/3 mx-auto leading-normal ">Welcome to your new Haven.
 		</h1>
@@ -14,7 +14,7 @@
 				<button class=" bg-red h-full capitalize w-auto px-5"> notify me </button>
 			</div>
 		</div> -->
-		<div class="flex xl:flex-row flex-col md:flex-col w-2/3  m-auto notify-me-form xl:space-x-4 xl:space-y-0 space-y-8 justify-center">
+		<div class="flex xl:flex-row flex-col md:flex-col w-2/3 mb-12 m-auto notify-me-form xl:space-x-4 xl:space-y-0 space-y-8 justify-center">
 			<img width="28px" class="self-center" src="/Mail_2.svg" />
 			<a href="mailto:reservations@playadxb.com" class="md:text-sm text-xs self-center ">reservations@playadxb.com</a>
 			<svg class="self-center" width="27" height="1" viewBox="0 0 27 1" fill="none" xmlns="http://www.w3.org/2000/svg">

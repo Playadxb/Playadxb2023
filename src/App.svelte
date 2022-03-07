@@ -26,7 +26,7 @@
 				<line y1="0.5" x2="27" y2="0.5" stroke="white" />
 			</svg>
 			<img width="28px" class="self-center" src="/phone.svg" />
-			<p class="capitilize text-xs self-center">800PLAYA</p>
+			<a href="tel:+97180075292" class="capitilize text-xs self-center">800PLAYA</a>
 		</div>
 	</div>
 </main>

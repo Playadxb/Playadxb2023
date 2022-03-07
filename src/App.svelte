@@ -2,7 +2,7 @@
 
 </script>
 
-<main class="h-max text-white main-content bg-cover bg-no-repeat">
+<main class="h-max xl:h-full text-white main-content bg-cover bg-no-repeat">
 	<div class="flex flex-col px-5 justify-center relative w-screen logo text-center mb-5">
 		<img src="/playa-logo.svg" class="h-20 my-12 xl:h-28 md:h-20 xl:mt-16 xl:mb-16 md:mt-16 " alt="logo" />
 		<h1 class="uppercase font-bold text-white text-2xl xl:text-5xl xl:w-1/3 mx-auto leading-normal ">Welcome to your new Haven.

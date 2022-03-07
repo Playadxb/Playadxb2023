@@ -867,6 +867,10 @@ button {
     height: 7rem;
   }
 
+  .xl\:h-full {
+    height: 100%;
+  }
+
   .xl\:w-1\/3 {
     width: 33.333333%;
   }

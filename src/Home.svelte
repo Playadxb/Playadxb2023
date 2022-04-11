@@ -1,4 +1,15 @@
+<script context="module">
+	/** @type {import('@sveltejs/kit').Load} */
+	export const load = async ({ url }) => ({ props: { url } });
+  </script>
+
 <script>
+	import Footer from './Footer.svelte'
+	import PageTransition from './PageTransition.svelte'
+	export let url;
+		  /** @type {import('@sveltejs/kit').Load} */
+
+	export const load = async ({ url }) => ({ props: { url } });
 
 </script>
 
@@ -27,9 +38,9 @@
 								fill="#454545" />
 						</svg>
 					</button>
-					<button href="#"
-						class="uppercase h-auto w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent"
-						aria-current="page">book now</button>
+					<a href="/book"
+						class="uppercase h-auto self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2"
+						aria-current="page" style="color:white">book now</a>
 					<a class="flex justify-center items-center" href="#"><img src="/humburger-menu-icon.svg" alt=""
 							srcset="" /></a>
 
@@ -37,8 +48,8 @@
 			</div>
 		</div>
 	</nav>
-
-	<section class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-cover lg:bg-cover md:bg-cover " id="landing-hero">
+	<PageTransition {url} > 
+	<section class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover " id="landing-hero">
 		<div class="self-center flex-auto w-1/2">
 			<div class="flex flex-col m-auto w-1/2 space-y-6">
 				<img class="m-auto" src="/logo.png" alt="Playa Logo" />
@@ -88,9 +99,9 @@
 			<p class="lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto w-1/2 uppercase">Lorem ipsum dolor sit amet,
 				consectetur adipiscing elit.
 				In amet in at magnis semper.</p>
-			<a href="" class="text-red capitalize cursor-pointer">
+			<a href="/concept" class="text-red capitalize cursor-pointer">
 				<p class="lg:text-lg xl:text-xl text-left text-red leading-6">
-					View Menu
+					View Concept
 				</p>
 			</a>
 		</div>
@@ -113,14 +124,14 @@
 		</div>
 	</section>
 
-	<section class="w-screen items-center bg-cover bg-no-repeat" id="events-hero">
+	<section class="h-auto items-center bg-cover bg-no-repeat" id="events-hero">
 		<div class="flex flex-col items-center lg:py-24 xl:py-52 xl:space-y-10 lg:space-y-8">
 			<img src="./dance-statue.webp" alt="Dance Statue" class="h-24 xl:h-auto" srcset=""/>
 			<h1 class="text-white capitalize text-center lg:text-5xl xl:text-8xl">events</h1>
 			<p class="lg:text-lg xl:text-xl text-white text-center leading-6 capitalize w-1/4 mx-auto">Lorem ipsum dolor sit amet,
 				consectetur adipiscing elit.
 				In amet in at magnis semper.</p>
-			<a href="" class="text-red capitalize cursor-pointer">
+			<a href="/events" class="text-red capitalize cursor-pointer">
 				<p class="lg:text-lg xl:text-xl text-left text-white leading-6">
 					View Calendar
 				</p>
@@ -128,14 +139,8 @@
 		</div>
 	</section>
 
-	<footer class="text-center text-white h-80 bg-light-purple">
-		<div class="flex flex-row justify-center h-20 space-x-8">
-			<a href="#" class="text-lg text-rose-gold capitalize  ">Concept</a>
-			<a href="#" class="text-lg text-rose-gold capitalize  ">Menu</a>
-			<a href="#" class="text-lg text-rose-gold capitalize  ">Events</a>
-			<a href="#" class="text-lg text-rose-gold capitalize ">Reserve</a>
-		</div>
-	  </footer>
+	<Footer />
+</PageTransition>
 </main>
 
 <style>

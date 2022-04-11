@@ -202,7 +202,8 @@ select { /* 1 */
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button {
+button,
+[type='button'] {
   -webkit-appearance: button;
 }
 
@@ -644,6 +645,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mt-14 {
   margin-top: 3.5rem;
 }
@@ -662,6 +668,10 @@ video {
 
 .table {
   display: table;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -806,6 +816,10 @@ video {
   cursor: pointer;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -838,6 +852,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -860,6 +878,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
 .self-center {
@@ -887,6 +911,11 @@ video {
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
 }
 
+.border-rose-gold {
+  --tw-border-opacity: 1;
+  border-color: rgba(248, 224, 212, var(--tw-border-opacity));
+}
+
 .bg-light-purple {
   --tw-bg-opacity: 1;
   background-color: rgba(49, 56, 122, var(--tw-bg-opacity));
@@ -902,8 +931,25 @@ video {
   background-color: rgba(248, 224, 212, var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(21, 22, 24, var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-dark-rose-gold {
+  background-color: rgba(245,211,194,0.3);
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 .bg-no-repeat {
@@ -914,14 +960,34 @@ video {
   padding: 2rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-48 {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 .pl-24 {
@@ -965,6 +1031,10 @@ video {
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-red {
@@ -1083,6 +1153,11 @@ button {
   .md\:pt-24 {
     padding-top: 6rem;
   }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1100,6 +1175,10 @@ button {
 
   .lg\:w-64 {
     width: 16rem;
+  }
+
+  .lg\:w-72 {
+    width: 18rem;
   }
 
   .lg\:w-32\/50 {
@@ -1180,8 +1259,20 @@ button {
     height: auto;
   }
 
+  .xl\:h-full {
+    height: 100%;
+  }
+
   .xl\:w-16 {
     width: 4rem;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
+  }
+
+  .xl\:w-1\/3 {
+    width: 33.333333%;
   }
 
   .xl\:space-x-24 > :not([hidden]) ~ :not([hidden]) {

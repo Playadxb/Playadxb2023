@@ -27,9 +27,9 @@
 								fill="#454545" />
 						</svg>
 					</button>
-					<button href="#"
-						class="uppercase h-auto w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent"
-						aria-current="page">book now</button>
+					<a href="/book"
+						class="uppercase h-auto self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2"
+						aria-current="page" style="color:white">book now</a>
 					<a class="flex justify-center items-center" href="#"><img src="/humburger-menu-icon.svg" alt=""
 							srcset="" /></a>
 

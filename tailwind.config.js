@@ -1,11 +1,6 @@
 const production = !process.env.ROLLUP_WATCH;
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
-
-  future: {
-    purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true,
-  },
   plugins: [
   ],
   theme: {
@@ -18,6 +13,9 @@ module.exports = {
       'light-red' : "#D9A58B",
       'white': '#FFFFFF',
       'rose-gold' : "#F8E0D4",
+      'black' : '#151618',
+      'transparent': 'transparent',
+      'dark-rose-gold':'rgba(245,211,194,0.3)',
     },
     extend: {
       width: {
@@ -43,7 +41,9 @@ module.exports = {
   },
   purge: {
     content: [
-     "./src/App.svelte",
+      "./src/App.svelte",
+      "./src/Home.svelte",
+      "./src/Book.svelte",
     ],
     enabled: production // disable purge in dev
   },

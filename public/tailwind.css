@@ -13,10 +13,7 @@ body{
     padding: 0px !important; 
 } 
 
-#landing-hero {
-    background-image: url('/playa-landing-hero.png');
-    background-size: cover;
-}
+
 
 button {
     font-family: 'Montserrat', sans-serif;

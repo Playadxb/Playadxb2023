@@ -14,12 +14,12 @@
 </script>
 
 <main class="h-full bg-black text-white main-content relative ">
-	<nav class="bg-transparent px-6 lg:px-16 border-gray-200  sm:px-4 py-6 dark:bg-gray-800 absolute top-0 w-full z-10">
-		<div class="container flex flex-wrap justify-end mx-auto">
-			<div class="hidden flex  justify-between items-center w-full md:flex md:w-auto md:order-1"
+	<nav class="block bg-transparent px-6 lg:px-16 border-gray-200  sm:px-4 py-6 dark:bg-gray-800 absolute top-0 w-full z-10">
+		<div class="lg:container lg:flex flex-wrap justify-end mx-auto">
+			<div class=" flex justify-end lg:justify-between items-center w-full md:flex md:w-auto md:order-1"
 				id="mobile-menu-3">
 				<div class="flex flex-col h-14 space-x-9 md:flex-row md:mt-0 ">
-					<button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-rose-gold" aria-current="page">
+					<button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-rose-gold hidden lg:block" aria-current="page">
 						<svg width="18" height="22" viewBox="0 0 18 22" class="m-auto" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -30,7 +30,7 @@
 								stroke="#454545" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 						</svg>
 					</button>
-					<button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-rose-gold" aria-current="page">
+					<button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-rose-gold hidden lg:block" aria-current="page">
 						<svg width="15" height="20" viewBox="0 0 15 20" class="m-auto" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -39,7 +39,7 @@
 						</svg>
 					</button>
 					<a href="/book"
-						class="uppercase h-auto self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2"
+						class="uppercase h-auto self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 hidden lg:block"
 						aria-current="page" style="color:white">book now</a>
 					<a class="flex justify-center items-center" href="#"><img src="/humburger-menu-icon.svg" alt=""
 							srcset="" /></a>
@@ -50,15 +50,15 @@
 	</nav>
 	<PageTransition {url} > 
 	<section class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover " id="landing-hero">
-		<div class="self-center flex-auto w-1/2">
-			<div class="flex flex-col m-auto w-1/2 space-y-6">
+		<div class="self-center flex-auto lg:w-1/2">
+			<div class="flex flex-col m-auto w-4/5 lg:w-1/2 space-y-6">
 				<img class="m-auto" src="/logo.png" alt="Playa Logo" />
-				<p class="text-xl text-left text-white leading-6">Lorem ipsum dolor sit amet,
+				<p class="text-xl sm:text-center lg:text-left text-white leading-6">Lorem ipsum dolor sit amet,
 					consectetur adipiscing elit.
 					In amet in at magnis semper.</p>
 			</div>
 		</div>
-		<div class="relative">
+		<div class="relative hidden lg:block">
 			<img src="/clock_ring.svg" class="w-auto h-auto" alt="clock ring" />
 			<img src="/monument.svg" alt="monument" class="absolute" style="left:55%; top:31%; z-index:2;" />
 			<img class="absolute inset-0 left-auto lg:w-32/50" src="/up-right-shaddow.svg" alt="" />
@@ -68,16 +68,16 @@
 		</div>
 	</section>
 
-	<section class="h-auto items-center bg-light-purple flex sm:flex-col lg:flex-row justify-center text-center md:pt-24 lg:pt-8">
-		<div class="relative self-center h-auto flex-auto w-1/2 xl:ml-24 sm:mt-96 md:mt-0">
-			<img class="absolute top-0 left-44 2xl:ml-40 2xl:w-80 lg:ml-20 lg:w-64 md:w-64" src="/menu-item-2.png" alt="Drinks" />
+	<section class="h-auto items-center bg-light-purple flex flex-col-reverse lg:flex-row justify-center text-center md:pt-24 lg:pt-8">
+		<div class="relative self-center h-auto  flex-auto w-full lg:w-1/2 xl:ml-24 lg:mt-96 md:mt-0">
+			<img class="absolute bottom-0 lg:top-0 left-44 2xl:ml-40 2xl:w-80 lg:ml-20 lg:w-64 md:w-64 w-48" src="/menu-item-2.png" alt="Drinks" />
 
-			<img class="top-0 left-0 mt-14 2xl:ml-40 lg:ml-20 2xl:w-80 w-64" src="/menu-item-1.png" alt="Workplace" />
+			<img class="bottom-0 lg:top-0 left-0 mt-14 2xl:ml-40 lg:ml-20 2xl:w-80 w-52" src="/menu-item-1.png" alt="Workplace" />
 		</div>
-		<div class="flex flex-col mx-auto w-1/2 space-y-6 self-baseline lg:mt-16 xl:mt-24 ">
+		<div class="flex flex-col mx-auto w-4/5 lg:w-1/2 space-y-6 self-baseline lg:mt-16 xl:mt-24 mt-10 ">
 			<img class="mr-auto lg:h-24 xl:h-auto" src="/drinks-menu.png" alt="Drinks" />
-			<h1 class="text-red text-bold capitalize text-left lg:text-4xl xl:text-8xl">Menu.</h1>
-			<p class="lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto w-1/2 uppercase">Lorem ipsum dolor sit amet,
+			<h1 class="text-red font-bold capitalize text-left text-6xl  lg:text-4xl xl:text-8xl">Menu.</h1>
+			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">Lorem ipsum dolor sit amet,
 				consectetur adipiscing elit.
 				In amet in at magnis semper.</p>
 			<a href="" class="text-red capitalize cursor-pointer">
@@ -89,18 +89,18 @@
 
 	</section>
 
-	<section class="h-auto items-center bg-light-purple flex sm:flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
-		<img class="h-auto w-1/2 z-10" src="/concept_tent.png" alt="Tent" />
+	<section class="h-auto items-center bg-light-purple flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
+		<img class="h-auto lg:w-1/2 z-10" src="/concept_tent.png" alt="Tent" />
 
-		<div class="flex relative flex-col mx-auto w-1/2 p-auto space-y-6 self-baseline mt-24 pl-24 z-10"
+		<div class="flex relative lg:flex-col flex-col w-4/5 mx-auto lg:w-1/2 p-auto space-y-6 mt-10 self-baseline lg:mt-24 lg:pl-24 z-10"
 			id="concept-section">
 			<img class="mr-auto lg:h-24 xl:h-auto" src="/fire.png" alt="fire" />
-			<h1 class="text-red text-bold capitalize text-left lg:text-4xl xl:text-8xl">Concept.</h1>
-			<p class="lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto w-1/2 uppercase">Lorem ipsum dolor sit amet,
+			<h1 class="text-red font-bold capitalize text-left text-6xl  lg:text-4xl xl:text-8xl">Concept.</h1>
+			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">Lorem ipsum dolor sit amet,
 				consectetur adipiscing elit.
 				In amet in at magnis semper.</p>
 			<a href="/concept" class="text-red capitalize cursor-pointer">
-				<p class="lg:text-lg xl:text-xl text-left text-red leading-6">
+				<p class="lg:text-lg xl:text-xl text-left text-red leading-6 pb-10">
 					View Concept
 				</p>
 			</a>
@@ -111,12 +111,12 @@
 
 	<section class="h-auto w-auto items-center bg-dark-purple flex flex-row-reverse justify-center text-center md:pt-24 lg:pt-8">
 		<div class="flex w-screen p-8 xl:p-16 my-8 xl:my-16 xl:space-x-24 space-x-12">
-				<img src="/book-now-1.png" alt="book-1" class="2xl:h-auto md:h-96"/>
-				<img src="/book-now-2.png" alt="book-2" class="2xl:h-auto md:h-96"/>
-				<img src="/book-now-3.png" alt="book-3" class="2xl:h-auto md:h-96"/>
+				<img src="/book-now-1.png" alt="book-1" class="2xl:h-auto hidden lg:block md:h-96"/>
+				<img src="/book-now-2.png" alt="book-2" class="2xl:h-auto hidden lg:block md:h-96"/>
+				<img src="/book-now-3.png" alt="book-3" class="2xl:h-auto hidden lg:block md:h-96"/>
 				<div class="flex flex-grow flex-col justify-center space-y-6">
 					<img class="mr-auto" src="/book_sun.svg" alt="sun" />
-					<h1 class="text-red text-bold capitalize text-left text-8xl w-1/2">Book Now.</h1>
+					<h1 class="text-red text-bold capitalize text-left text-6xl lg:text-8xl w-1/2">Book Now.</h1>
 					<svg width="35" height="16" viewBox="0 0 35 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M1 7C0.447715 7 -4.8282e-08 7.44772 0 8C1.07887e-07 8.55229 0.447715 9 1 9L1 7ZM34.7071 8.7071C35.0976 8.31658 35.0976 7.68341 34.7071 7.29289L28.3431 0.92893C27.9526 0.538406 27.3195 0.538406 26.9289 0.92893C26.5384 1.31945 26.5384 1.95262 26.9289 2.34314L32.5858 8L26.9289 13.6569C26.5384 14.0474 26.5384 14.6805 26.9289 15.0711C27.3195 15.4616 27.9526 15.4616 28.3431 15.0711L34.7071 8.7071ZM1 9L34 9L34 7L1 7L1 9Z" fill="#EF5758"/>
 					</svg>						
@@ -125,10 +125,10 @@
 	</section>
 
 	<section class="h-auto items-center bg-cover bg-no-repeat" id="events-hero">
-		<div class="flex flex-col items-center lg:py-24 xl:py-52 xl:space-y-10 lg:space-y-8">
+		<div class="flex flex-col items-center lg:py-24 xl:py-52 xl:space-y-10 lg:space-y-8 space-y-6 py-12">
 			<img src="./dance-statue.webp" alt="Dance Statue" class="h-24 xl:h-auto" srcset=""/>
 			<h1 class="text-white capitalize text-center lg:text-5xl xl:text-8xl">events</h1>
-			<p class="lg:text-lg xl:text-xl text-white text-center leading-6 capitalize w-1/4 mx-auto">Lorem ipsum dolor sit amet,
+			<p class="lg:text-lg xl:text-xl text-white text-center leading-6 capitalize w-3/4 lg:w-1/4 mx-auto">Lorem ipsum dolor sit amet,
 				consectetur adipiscing elit.
 				In amet in at magnis semper.</p>
 			<a href="/events" class="text-red capitalize cursor-pointer">

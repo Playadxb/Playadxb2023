@@ -746,10 +746,6 @@ video {
   width: 50%;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
-}
-
 .w-3\/4 {
   width: 75%;
 }
@@ -1106,8 +1102,8 @@ video {
   padding-bottom: 3rem;
 }
 
-.pl-24 {
-  padding-left: 6rem;
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .text-left {
@@ -1230,10 +1226,6 @@ button {
 }
 
 @media (min-width: 640px) {
-  .sm\:flex-col-reverse {
-    flex-direction: column-reverse;
-  }
-
   .sm\:bg-no-repeat {
     background-repeat: no-repeat;
   }
@@ -1372,6 +1364,10 @@ button {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .lg\:w-1\/4 {

@@ -5,12 +5,12 @@
     <main class="h-full xl:h-full text-white main-content bg-cover bg-repeat bg-dark-grey">
         <nav class="bg-black px-6 lg:px-16 border-gray-200  sm:px-4 py-6 dark:bg-gray-800 w-full z-10">
             <div class="container flex flex-wrap justify-end mx-auto">
-                <div class="flex  justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-3">
-                    <div class="" style="width:20%">
+                <div class="flex   justify-end lg:justify-between  items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-3">
+                    <div class="hidden lg:block" style="width:20%">
                         <a href="/" ><img src="./playa_red_logo.webp" alt="" srcset=""></a>
                     </div>
                     <div class="flex flex-col h-14 space-x-9 md:flex-row md:mt-0 ">
-                        <button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-dark-rose-gold"
+                        <button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-dark-rose-gold hidden lg:block"
                             aria-current="page">
                             <svg width="18" height="22" viewBox="0 0 18 22" class="m-auto" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@
                                     stroke="#F5D3C2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-dark-rose-gold"
+                        <button href="#" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-dark-rose-gold hidden lg:block"
                             aria-current="page">
                             <svg width="15" height="20" viewBox="0 0 15 20" class="m-auto" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,7 @@
                             </svg>
                         </button>
                         <a href="/book"
-                            class="uppercase h-auto self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2"
+                            class="uppercase h-auto self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2 hidden lg:block"
                             aria-current="page" style="color:white">book now</a>
                         <a class="flex justify-center items-center" href="#"><img src="/humburger-menu-icon.svg" alt=""
                                 srcset="" /></a>
@@ -42,23 +42,24 @@
             </div>
         </nav>
         <section style="background-image:url('./concept_backgtound.png')" class="min-h-full flex flex-row-reverse justify-items-end justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-cover lg:bg-cover md:bg-cover " id="landing-hero">
-            <div  class="self-center flex-auto w-1/2 ml-auto">
-                <div  class="flex flex-col w-1/2 space-y-6 ml-auto">
-                    <h1 class="text-5xl text-left text-white leading-6">Concept.</h1>
-                    <p class="text-xl text-left text-white leading-6">Lorem ipsum dolor sit amet,
+            <div  class="self-center flex-auto lg:w-1/2 ml-auto">
+                <div  class="flex flex-col  lg:w-1/2 space-y-6 ml-auto">
+                    <h1 class="text-5xl text-center lg:text-left text-white leading-6">Concept.</h1>
+                    <p class="text-xl text-center lg:text-left text-white leading-6">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit.
                         In amet in at magnis semper.</p>
                 </div>
             </div>
         </section>
-        <section class="h-auto items-center bg-dark-grey flex sm:flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
-            <img class="h-auto w-2/3 z-10 bg-contain" src="/concept_tent.png" alt="Tent" />
+        
+        <section class="h-auto items-center bg-dark-grey flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
+            <img class="h-auto lg:w-2/3 z-10 bg-contain" src="/concept_tent.png" alt="Tent" />
     
-            <div class="flex relative flex-col mx-auto w-1/2 p-auto space-y-6 self-baseline mt-24 pl-24 z-10"
+            <div class="flex relative flex-col mx-auto lg:w-1/2 p-auto space-y-6 self-baseline mt-24 pl-12 lg:pl-24 z-10"
                 id="concept-section">
                 <img class="mr-auto lg:h-24 xl:h-auto" src="/cuisine.svg" alt="fire" />
                 <h1 class="text-red text-bold capitalize text-left lg:text-2xl xl:text-8xl">Cuisine.</h1>
-                <p class="lg:text-lg xl:text-lg text-light-red text-left leading-6 mr-auto w-1/2 uppercase">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit.  Volutpat urna montes, in quisque nibh dolor. Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Volutpat urna montes, in quisque nibh dolor.</p>
+                <p class="lg:text-lg xl:text-lg text-light-red text-left leading-6 mr-auto  lg:w-1/2 uppercase">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit.  Volutpat urna montes, in quisque nibh dolor. Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Volutpat urna montes, in quisque nibh dolor.</p>
                 <a href="/concept" class="text-red capitalize cursor-pointer">
                     <p class="lg:text-lg xl:text-xl text-left text-red leading-6">
                         View Concept
@@ -68,14 +69,14 @@
             <!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave.svg"> </object> -->
             <!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave-2.svg"> </object> -->
         </section>
-        <section class="h-auto items-center bg-dark-grey flex sm:flex-col-reverse lg:flex-row justify-center text-center">
-            <img class="h-auto w-2/3 z-10 bg-contain" src="/concept_tent.png" alt="Tent" />
+        <section class="h-auto items-center bg-dark-grey flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
+            <img class="h-auto lg:w-2/3 z-10 bg-contain" src="/concept_tent.png" alt="Tent" />
     
-            <div class="flex relative flex-col mx-auto w-1/2 p-auto space-y-6 self-baseline mt-24 pl-24 z-10"
+            <div class="flex relative flex-col mx-auto lg:w-1/2 p-auto space-y-6 self-baseline mt-24 pl-12 lg:pl-24 z-10"
                 id="concept-section">
                 <img class="mr-auto lg:h-24 xl:h-auto" src="/glass.svg" alt="fire" />
-                <h1 class="text-red text-bold capitalize text-left lg:text-2xl xl:text-8xl">Cocktails.</h1>
-                <p class="lg:text-lg xl:text-lg text-light-red text-left leading-6 mr-auto w-1/2 uppercase">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit.  Volutpat urna montes, in quisque nibh dolor. Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Volutpat urna montes, in quisque nibh dolor.</p>
+                <h1 class="text-red text-bold capitalize text-left lg:text-2xl xl:text-8xl">Cuisine.</h1>
+                <p class="lg:text-lg xl:text-lg text-light-red text-left leading-6 mr-auto  lg:w-1/2 uppercase">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit.  Volutpat urna montes, in quisque nibh dolor. Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Volutpat urna montes, in quisque nibh dolor.</p>
                 <a href="/concept" class="text-red capitalize cursor-pointer">
                     <p class="lg:text-lg xl:text-xl text-left text-red leading-6">
                         View Concept

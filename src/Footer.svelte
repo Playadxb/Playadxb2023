@@ -5,7 +5,7 @@
 
 <footer class="text-center text-white h-auto bg-light-purple">
     <div class="flex flex-col ">
-        <div class="flex flex-row justify-center h-20 space-x-16 py-16 flex-wrap items-center " id="footer-menu">
+        <div class="flex flex-row justify-center h-20 space-x-16 px-2 py-16 flex-wrap items-center " id="footer-menu">
             <a href="/concept" class="uppercase text-lg font-bold xl:text-xl text-rose-gold  ">Concept</a>
             <a href="#" class="uppercase text-lg font-bold  xl:text-xl text-rose-gold  ">Menu</a>
             <a href="/events" class="uppercase text-lg font-bold  xl:text-xl text-rose-gold  ">Events</a>

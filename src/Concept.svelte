@@ -2,8 +2,8 @@
     import Footer from './Footer.svelte'
     </script>
     
-    <main class="h-full xl:h-full text-white main-content bg-cover bg-repeat bg-dark-grey">
-        <nav class="bg-black px-6 lg:px-16 border-gray-200  sm:px-4 py-6 dark:bg-gray-800 w-full z-10">
+    <main class="h-full xl:h-full text-white main-content bg-cover bg-repeat bg-rose-gold dark:bg-dark-grey">
+        <nav class="bg-white dark:bg-black px-6 lg:px-16 border-gray-200  sm:px-4 py-6 dark:bg-gray-800 w-full z-10 shadow-regular">
             <div class="container flex flex-wrap justify-end mx-auto">
                 <div class="flex   justify-end lg:justify-between  items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-3">
                     <div class="hidden lg:block" style="width:20%">
@@ -32,10 +32,10 @@
                             </svg>
                         </button>
                         <a href="/book"
-                            class="uppercase h-auto self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2 hidden lg:block"
-                            aria-current="page" style="color:white">book now</a>
-                        <a class="flex justify-center items-center" href="#"><img src="/humburger-menu-icon.svg" alt=""
-                                srcset="" /></a>
+                            class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2 hidden lg:block"
+                            aria-current="page" >book now</a>
+                        <a class="flex justify-center items-center" href="#"><object data="/humburger-menu-icon.svg"
+                                srcset="book" ></object></a>
     
                     </div>
                 </div>
@@ -45,43 +45,34 @@
             <div  class="self-center flex-auto lg:w-1/2 ml-auto">
                 <div  class="flex flex-col  lg:w-1/2 space-y-6 ml-auto">
                     <h1 class="text-5xl text-center lg:text-left text-white leading-6">Concept.</h1>
-                    <p class="text-xl text-center lg:text-left text-white leading-6">Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                        In amet in at magnis semper.</p>
+                    <p class="text-xl text-center lg:text-left text-white leading-6">Playa Dubai is a beach club, restaurant, beach bar, and venue that offers the finest Peruvian cuisine in Palm Jumeirah. With our warm and inviting atmosphere, we are committed to providing you with an unforgettable modern and rich experience.
+                        Our attention to detail shows in everything we do, from the rich colours of our space and decor to the fascinating presentation of each dish. 
+                        Playa offers a wide range of activities to cater to your interests. From brunches to business lunches, family pool events, body-related activities, vibrant night parties, and a stargazing night. There’s something for everyone!
+                        </p>
                 </div>
             </div>
         </section>
         
-        <section class="h-auto items-center bg-dark-grey flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
-            <img class="h-auto lg:w-2/3 z-10 bg-contain" src="/concept_tent.png" alt="Tent" />
+        <section class="h-auto items-center  bg-white dark:bg-dark-grey flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
+            <img class="h-auto w-1/2 xl:w-2/3 z-10 bg-contain" src="/cuisine.png" alt="Tent" />
     
-            <div class="flex relative flex-col mx-auto lg:w-1/2 p-auto space-y-6 self-baseline mt-24 pl-12 lg:pl-24 z-10"
+            <div class="flex relative flex-col mx-auto w-1/2 xl:w-1/3 p-auto space-y-6 self-baseline mt-12 pl-12 lg:pl-24 z-10"
                 id="concept-section">
                 <img class="mr-auto lg:h-24 xl:h-auto" src="/cuisine.svg" alt="fire" />
-                <h1 class="text-red text-bold capitalize text-left lg:text-2xl xl:text-8xl">Cuisine.</h1>
-                <p class="lg:text-lg xl:text-lg text-light-red text-left leading-6 mr-auto  lg:w-1/2 uppercase">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit.  Volutpat urna montes, in quisque nibh dolor. Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Volutpat urna montes, in quisque nibh dolor.</p>
-                <a href="/concept" class="text-red capitalize cursor-pointer">
-                    <p class="lg:text-lg xl:text-xl text-left text-red leading-6">
-                        View Concept
-                    </p>
-                </a>
+                <h1 class="text-red text-bold capitalize text-left lg:text-xl xl:text-8xl">Cuisine.</h1>
+                <p class="lg:text-md xl:text-lg text-light-red text-left leading-6 mr-auto  lg:w-1/2 uppercase">Be prepared to go on a deep Peruvian journey with every bite. Playa's cuisine highlights Peruvian heritage via culinary traditions at the heart of Dubai, prepared with fresh ingredients, passion, and professionalism. Experience modernity and savoir-faire in a meal at Playa! </p>
             </div>
             <!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave.svg"> </object> -->
             <!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave-2.svg"> </object> -->
         </section>
-        <section class="h-auto items-center bg-dark-grey flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
-            <img class="h-auto lg:w-2/3 z-10 bg-contain" src="/concept_tent.png" alt="Tent" />
+        <section class="h-auto items-center bg-white dark:bg-dark-grey flex flex-col lg:flex-row justify-center text-center ">
+            <img class="h-auto w-1/2 xl:w-2/3 z-10 bg-contain" src="/cocktails.png" alt="Tent" />
     
-            <div class="flex relative flex-col mx-auto lg:w-1/2 p-auto space-y-6 self-baseline mt-24 pl-12 lg:pl-24 z-10"
+            <div class="flex relative flex-col mx-auto lg:w-1/2 p-auto space-y-6 self-baseline mt-12 pl-12 lg:pl-24 z-10"
                 id="concept-section">
                 <img class="mr-auto lg:h-24 xl:h-auto" src="/glass.svg" alt="fire" />
-                <h1 class="text-red text-bold capitalize text-left lg:text-2xl xl:text-8xl">Cuisine.</h1>
-                <p class="lg:text-lg xl:text-lg text-light-red text-left leading-6 mr-auto  lg:w-1/2 uppercase">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit.  Volutpat urna montes, in quisque nibh dolor. Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Volutpat urna montes, in quisque nibh dolor.</p>
-                <a href="/concept" class="text-red capitalize cursor-pointer">
-                    <p class="lg:text-lg xl:text-xl text-left text-red leading-6">
-                        View Concept
-                    </p>
-                </a>
+                <h1 class="text-red text-bold capitalize text-left lg:text-xl xl:text-8xl">Cocktails.</h1>
+                <p class="lg:text-md xl:text-lg text-light-red text-left leading-6 mr-auto  lg:w-1/2 uppercase">We are committed to providing you with the best cocktail mixes and beverages. Our bartenders are skilled and passionate about their craft.  We take pride in serving the best there is. We're not only talking about a shot of vodka or a glass of wine but premium cocktail mixes and beverages at Playa!</p>
             </div>
             <!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave.svg"> </object> -->
             <!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave-2.svg"> </object> -->

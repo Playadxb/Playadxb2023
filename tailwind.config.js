@@ -1,13 +1,14 @@
 const production = !process.env.ROLLUP_WATCH;
 module.exports = {
+  darkMode: 'class',
   content: ['./src/**/*.{html,js,svelte,ts}'],
   plugins: [
   ],
   theme: {
     colors: {
       'purple': '#6552B5',
-      'light-purple': '#31387a',
-      'dark-purple': '#0F1334',
+      'light-purple': '#252930',
+      'dark-purple': '#151618',
       'beige': '#EEE4DB',
       'red' : "#EF5758",
       'dark-red' : "#EF4044",
@@ -18,6 +19,7 @@ module.exports = {
       'transparent': 'transparent',
       'dark-rose-gold':'rgba(245,211,194,0.3)',
       'dark-grey': '#262830',
+      'light-beige': '#EFB598',
     },
     extend: {
       width: {
@@ -50,6 +52,5 @@ module.exports = {
       "./src/Event.svelte",
       "./src/Concept.svelte",
     ],
-    enabled: production // disable purge in dev
   },
 };

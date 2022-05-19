@@ -13,7 +13,9 @@
 
 </script>
 
+
 <main class="h-full bg-black text-white main-content relative ">
+
 	<nav class="block bg-transparent px-6 lg:px-16 border-gray-200  sm:px-4 py-6 dark:bg-gray-800 absolute top-0 w-full z-10">
 		<div class="lg:container lg:flex flex-wrap justify-end mx-auto">
 			<div class=" flex justify-end lg:justify-between items-center w-full md:flex md:w-auto md:order-1"
@@ -48,14 +50,21 @@
 			</div>
 		</div>
 	</nav>
+
 	<PageTransition {url} > 
+		<div class="flex w-full justify-around items-center fixed bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white py-5">
+			<div class="theme-switcher">
+				<button class="theme-switcher-button theme-switcher-light bg-gray-200 border-gray-200 border-2 dark:bg-black dark:border-black p-2 focus:outline-none" title="Light"><i class="fas fa-sun pointer-events-none"></i> Light</button><button class="theme-switcher-button theme-switcher-dark bg-gray-200 border-gray-200 border-2 dark:bg-black dark:border-black p-2 focus:outline-none" title="Dark"><i class="fas fa-moon pointer-events-none"></i> Dark</button><button class="theme-switcher-button theme-switcher-auto bg-gray-200 border-gray-200 dark:bg-black border-2 dark:border-black p-2 focus:outline-none" title="Auto"><i class="fas fa-adjust pointer-events-none"></i> Auto</button>
+			</div>
+		</div>
 	<section class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover " id="landing-hero">
 		<div class="self-center flex-auto lg:w-1/2">
 			<div class="flex flex-col m-auto w-4/5 lg:w-1/2 space-y-6">
 				<img class="m-auto" src="/logo.png" alt="Playa Logo" />
-				<p class="text-xl sm:text-center lg:text-left text-white leading-6">Lorem ipsum dolor sit amet,
-					consectetur adipiscing elit.
-					In amet in at magnis semper.</p>
+				<p class="text-xl sm:text-center lg:text-left text-white leading-6">The embodiment of its origins, Playa aims to transcend its physicality to become that feeling of renewed vigour for life, experienced through all the senses. It is the ideal hideaway on the serene Palm Jumeirah beach.
+					With the shamanic house music, authentic savoury cuisine with nourishing foods that fuel your spirit, and the diverse events that revitalise your soul, Playa's experience allows you to re-energize. 
+					Playa is life renewed!
+</p>
 			</div>
 		</div>
 		<div class="relative hidden lg:block">
@@ -77,9 +86,9 @@
 		<div class="flex flex-col mx-auto w-4/5 lg:w-1/2 space-y-6 self-baseline lg:mt-16 xl:mt-24 mt-10 ">
 			<img class="mr-auto lg:h-24 xl:h-auto" src="/drinks-menu.png" alt="Drinks" />
 			<h1 class="text-red font-bold capitalize text-left text-6xl  lg:text-4xl xl:text-8xl">Menu.</h1>
-			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">Lorem ipsum dolor sit amet,
-				consectetur adipiscing elit.
-				In amet in at magnis semper.</p>
+			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">We are pleased to offer you a selection of authentic Peruvian cuisine and beverages at Playa. The vibrant colours and flavours of the Peruvian culture will enliven your senses with our menu.
+				Come in and indulge in our luscious Peruvian dishes!
+				</p>
 			<a href="" class="text-red capitalize cursor-pointer">
 				<p class="lg:text-lg xl:text-xl text-left text-red leading-6">
 					View Menu
@@ -96,9 +105,7 @@
 			id="concept-section">
 			<img class="mr-auto lg:h-24 xl:h-auto" src="/fire.png" alt="fire" />
 			<h1 class="text-red font-bold capitalize text-left text-6xl  lg:text-4xl xl:text-8xl">Concept.</h1>
-			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">Lorem ipsum dolor sit amet,
-				consectetur adipiscing elit.
-				In amet in at magnis semper.</p>
+			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">Playa is a concept that combines a variety of events and activities for customers of all ages. It provides breathtaking views of the Palm Jumeirah and a taste of Peruvian flavours and culture.</p>
 			<a href="/concept" class="text-red capitalize cursor-pointer">
 				<p class="lg:text-lg xl:text-xl text-left text-red leading-6 pb-10">
 					View Concept
@@ -158,7 +165,7 @@
 	}
 
 	#landing-hero {
-		background-image: url('/playa-landing-hero.webp');
+		background-image: url('/playa-landing-hero.png');
 	}
 
 	@media (min-width: 640px) {

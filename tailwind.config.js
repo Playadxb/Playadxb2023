@@ -16,6 +16,7 @@ module.exports = {
       'white': '#FFFFFF',
       'rose-gold' : "#F8E0D4",
       'black' : '#151618',
+      'black-1' : '#000000',
       'transparent': 'transparent',
       'dark-rose-gold':'rgba(245,211,194,0.3)',
       'dark-grey': '#262830',

@@ -52,29 +52,27 @@
 	</nav>
 
 	<PageTransition {url} > 
-
-	<section class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover " id="landing-hero">
+	<section class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover landing-hero" >
 		<div class="self-center flex-auto lg:w-1/2">
 			<div class="flex flex-col m-auto w-4/5 lg:w-1/2 space-y-6">
 				<img class="m-auto" src="/logo.png" alt="Playa Logo" />
-				<p class="text-xl sm:text-center lg:text-left text-white leading-6">The embodiment of its origins, Playa aims to transcend its physicality to become that feeling of renewed vigour for life, experienced through all the senses. It is the ideal hideaway on the serene Palm Jumeirah beach.
-					With the shamanic house music, authentic savoury cuisine with nourishing foods that fuel your spirit, and the diverse events that revitalise your soul, Playa's experience allows you to re-energize. 
-					Playa is life renewed!
+				<p class="text-sm xl:text-xl sm:text-center lg:text-left text-white leading-6">PLAYA is the ideal hideaway on the serene Palm Jumeirah beach. With the shamanic house music, authentic savoury cuisine with nourishing foods that fuel your spirit, and the diverse events that revitalise your soul, Playa's experience allows you to re-energize. Playa is life renewed!
 </p>
 			</div>
 		</div>
 		<div class="relative hidden lg:block">
 			<img src="/clock_ring.svg" class="w-auto h-auto" alt="clock ring" />
 			<img src="/monument.svg" alt="monument" class="absolute" style="left:55%; top:31%; z-index:2;" />
+			<div class="absolute inset-0"></div>
 			<img class="absolute inset-0 left-auto lg:w-32/50" src="/up-right-shaddow.svg" alt="" />
-			<!-- <svg class="absolute inset-0 left-auto lg:w-32/50" width="968" height="394" viewBox="0 0 968 394" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg class="absolute inset-0 " style="right:55%" width="968" height="394" viewBox="0 0 968 394" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M0 -2H806L960 381L967.5 394L0 -2Z" fill="black" fill-opacity="0.64"/>
-				</svg> -->
+				</svg>
 		</div>
 	</section>
 
 	<section class="h-auto items-center bg-white dark:bg-light-purple flex flex-col-reverse lg:flex-row justify-center text-center md:pt-24 lg:pt-8">
-		<div class="relative self-center h-auto  flex-auto w-full lg:w-1/2 xl:ml-24 lg:mt-96 md:mt-0">
+		<div class="relative self-center h-auto  flex-auto w-full lg:w-1/2 xl:ml-24 lg:mt-24 md:mt-0">
 			<img class="absolute bottom-0 lg:top-0 left-44 2xl:ml-40 2xl:w-80 lg:ml-20 lg:w-64 md:w-64 w-48" src="/menu-item-2.png" alt="Drinks" />
 
 			<img class="bottom-0 lg:top-0 left-0 mt-14 2xl:ml-40 lg:ml-20 2xl:w-80 w-52" src="/menu-item-1.png" alt="Workplace" />
@@ -82,7 +80,7 @@
 		<div class="flex flex-col mx-auto w-4/5 lg:w-1/2 space-y-6 self-baseline lg:mt-16 xl:mt-24 mt-10 ">
 			<img class="mr-auto lg:h-24 xl:h-auto" src="/drinks-menu.png" alt="Drinks" />
 			<h1 class="text-red font-bold capitalize text-left text-6xl  lg:text-4xl xl:text-8xl">Menu.</h1>
-			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">We are pleased to offer you a selection of authentic Peruvian cuisine and beverages at Playa. The vibrant colours and flavours of the Peruvian culture will enliven your senses with our menu.
+			<p class="text-sm lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">We are pleased to offer you a selection of authentic Peruvian cuisine and beverages at Playa. The vibrant colours and flavours of the Peruvian culture will enliven your senses with our menu.
 				Come in and indulge in our luscious Peruvian dishes!
 				</p>
 			<a href="" class="text-red capitalize cursor-pointer">
@@ -94,25 +92,26 @@
 
 	</section>
 
-	<section class="h-auto items-center bg-white dark:bg-light-purple flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
+	<section class="h-auto  bg-white dark:bg-light-purple flex flex-col-reverse lg:flex-row-reverse lg:items-end relative justify-center text-center md:pt-24 lg:pt-24">
 		<img class="h-auto lg:w-1/2 z-10" src="/concept_tent.png" alt="Tent" />
 
-		<div class="flex relative lg:flex-col flex-col w-4/5 mx-auto lg:w-1/2 p-auto space-y-6 mt-10 self-baseline lg:mt-24 lg:pl-24 z-10"
+		<div class="flex relative lg:flex-col flex-col w-4/5 mx-auto lg:w-1/2 p-auto space-y-6 mt-10 self-baseline lg:mt-6 lg:pl-24 z-10"
 			id="concept-section">
 			<img class="mr-auto lg:h-24 xl:h-auto" src="/fire.png" alt="fire" />
 			<h1 class="text-red font-bold capitalize text-left text-6xl  lg:text-4xl xl:text-8xl">Concept.</h1>
-			<p class="text-md lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">Playa is a concept that combines a variety of events and activities for customers of all ages. It provides breathtaking views of the Palm Jumeirah and a taste of Peruvian flavours and culture.</p>
+			<p class="text-sm lg:text-lg xl:text-xl text-light-red text-left leading-6 mr-auto lg:w-1/2 uppercase">Playa is a concept that combines a variety of events and activities for customers of all ages. It provides breathtaking views of the Palm Jumeirah and a taste of Peruvian flavours and culture.</p>
 			<a href="/concept" class="text-red capitalize cursor-pointer">
-				<p class="lg:text-lg xl:text-xl text-left text-red leading-6 pb-10">
+				<p class="lg:text-lg xl:text-xl text-left text-red leading-6 pb-2">
 					View Concept
 				</p>
 			</a>
 		</div>
-		<!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave.svg"> </object> -->
-		<!-- <object id="wave" class="absolute bottom-0 left-0 z-0" title="wave" data="wave-2.svg"> </object> -->
+		
+		<object class="absolute bottom-0 left-0 z-0 hidden wave-1 h-10 lg:h-72 xl:h-96 " title="wave" data="wave.svg"> </object>
+		<object class="absolute bottom-0 left-0 z-0 dark:hidden wave-2 h-10 lg:h-72 xl:h-96" title="wave" data="wave-2.svg"> </object>
 	</section>
 
-	<section class="h-auto w-auto items-center bg-rose-gold dark:bg-dark-purple flex flex-row-reverse justify-center text-center md:pt-24 lg:pt-8">
+	<section class="h-auto w-auto items-center bg-rose-gold dark:bg-black-1 flex flex-row-reverse justify-center text-center md:pt-24 lg:pt-8">
 		<div class="flex w-screen p-8 xl:p-16 my-8 xl:my-16 xl:space-x-24 space-x-12">
 				<img src="/book-now-1.png" alt="book-1" class="2xl:h-auto hidden lg:block md:h-96"/>
 				<img src="/book-now-2.png" alt="book-2" class="2xl:h-auto hidden lg:block md:h-96"/>
@@ -160,9 +159,8 @@
 		}
 	}
 
-	#landing-hero {
-		background-image: url('/playa-landing-hero.png');
-	}
+
+
 
 	@media (min-width: 640px) {
 		main {
@@ -173,4 +171,6 @@
 	#events-hero{
 		background-image: url('/events-background.png');
 	}
+
+
 </style>

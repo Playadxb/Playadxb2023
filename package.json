@@ -7,7 +7,7 @@
     "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\"",
     "start": "sirv public --single",
     "watch:tailwind": "postcss public/tailwind.css -o public/index.css -w",
-    "build:tailwind": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/index.css",
+    "build:tailwind": "postcss public/tailwind.css -o public/index.css -w",
     "serve": "serve public -p 80"
   },
   "devDependencies": {

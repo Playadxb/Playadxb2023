@@ -69,3 +69,22 @@ nav a:visited{
 .dark nav a:visited{
 	color:white;
 }
+
+.landing-hero {
+	background-image: url('/home-drinks.png')  !important;
+}
+
+.dark .landing-hero {
+	background-image: url('/playa-landing-hero.png')  !important;
+}
+
+.wave-1 {
+	display: none;
+}
+
+.dark .wave-1 {
+	display: block;
+}
+.dark .wave-2 {
+	display: none;
+}

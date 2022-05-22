@@ -64,8 +64,6 @@
     <section style="background-image: url('/stock-photo-the-dj-in-the-red-t-shirt-plays-on-the-dj-equipment-play-vinyl-turntable-on-the-microbrand-1682769967 1.png')" class="event-details-section h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
         <h1 class=" flex-1 text-dark-red font-bold capitalize text-center lg:text-7xl xl:text-8xl ">03<span
                 class="sup">/12</span></h1>
-        <p class=" flex-none lg:text-5xl font-semi-bold xl:text-2xl text-white text-center leading-6 uppercase">Will
-            depend on event</p>
     </section>
     <div class=" h-24 w-full bg-dark-grey lg:px-32 xl:px-48 flex items-center">
         <div class="flex flex-row justify-between w-full ">
@@ -86,8 +84,6 @@
     <section style="background-image: url('/stock-photo-dj-spinning-mixing-and-scratching-in-a-night-club-hands-of-dj-tweak-various-track-controls-on-dj-1027578316 2.png')" class="event-details-section h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
         <h1 class=" flex-1 text-dark-red font-bold capitalize text-center lg:text-7xl xl:text-8xl ">03<span
                 class="sup">/12</span></h1>
-        <p class=" flex-none lg:text-5xl font-semi-bold xl:text-2xl text-white text-center leading-6 uppercase">Will
-            depend on event</p>
     </section>
     <div class=" h-24 w-full bg-dark-grey lg:px-32 xl:px-48 flex items-center">
         <div class="flex flex-row justify-between w-full ">
@@ -108,8 +104,6 @@
     <section style="background-image: url('/stock-photo-the-dj-in-the-red-t-shirt-plays-on-the-dj-equipment-play-vinyl-turntable-on-the-microbrand-1682769967 1.png')" class="event-details-section h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
         <h1 class=" flex-1 text-dark-red font-bold capitalize text-center lg:text-7xl xl:text-8xl ">03<span
                 class="sup">/12</span></h1>
-        <p class=" flex-none lg:text-5xl font-semi-bold xl:text-2xl text-white text-center leading-6 uppercase">Will
-            depend on event</p>
     </section>
     <div class=" h-24 w-full bg-dark-grey lg:px-32 xl:px-48 flex items-center">
         <div class="flex flex-row justify-between w-full ">

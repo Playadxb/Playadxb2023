@@ -7,7 +7,7 @@
     "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\"",
     "start": "sirv public --single",
     "watch:tailwind": "postcss public/tailwind.css -o public/index.css -w",
-    "build:tailwind": "postcss public/tailwind.css -o public/index.css -w",
+    "build:tailwind": "postcss public/tailwind.css -o public/index.css",
     "serve": "serve public -p 80"
   },
   "devDependencies": {

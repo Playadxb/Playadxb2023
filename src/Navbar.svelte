@@ -1,12 +1,15 @@
 <script>
     import SideBar from './SideBar.svelte'
+    import TopBar from './TopBar.svelte'
 	export let hideLogo = true
     export let isTransparent = true;
     let open = false;
+    let open2 = false;
 </script>
 <SideBar bind:open={open}/>
-<nav class=" {isTransparent === true ? 'bg-transparent dark:bg-transparent absolute top-0' : 'bg-white dark:bg-black-1'} block px-6 lg:px-16 border-gray-200  sm:px-4 py-6  w-full z-10">
-    <div class="container mx-auto">
+<nav class=" {isTransparent  === true ? 'bg-transparent dark:bg-transparent absolute top-0' : 'bg-white dark:bg-black-1'} block px-6 lg:px-16 border-gray-200  sm:px-4 py-6 h-36 w-full z-10">
+    <TopBar bind:open2={open2} bind:isTransparent={isTransparent} />
+    <div class=" mx-auto {open2 === true ? 'hidden' : 'container'} ">
         <div class="flex justify-end lg:justify-start  items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-3">
             <div class="{hideLogo === true ? '' : 'lg:visible' } invisible   " style="flex-grow:1">
                 <a href="/" ><img src="./playa_red_logo.webp" alt="" class="h-24" srcset=""></a>
@@ -36,7 +39,7 @@
                 <a href="/book"
                     class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2 hidden lg:block"
                     aria-current="page" >book now</a>
-                <button class="flex justify-center items-center h-full cursor-pointer" on:click={() => open = !open} ><img  src="/humburger-menu-icon.svg"
+                <button class="flex justify-center items-center h-full cursor-pointer click" on:click={() =>{ open = !open; open2 = !open2; isTransparent = !isTransparent}} ><img  src="/humburger-menu-icon.svg"
                         /></button>
 
             </div>

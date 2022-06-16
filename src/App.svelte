@@ -1,17 +1,17 @@
 <script>
 	import router from "page"
 	import Home from './Home.svelte'
-	import ComingSoon from './ComingSoon.svelte'
 	import Book from './Book.svelte'
 	import Event from './Event.svelte'
 	import Concept from './Concept.svelte'
+	import DrinksMenu from './DrinksMenu.svelte'
 	let page
 
-	router('/', () => page = ComingSoon)
-	router('/home', () => page = Home)
+	router('/', () => page = Home)
 	router('/book', () => page = Book)
 	router('/events', () => page = Event)
 	router('/concept', () => page = Concept)
+	router('/menu/pool', () => page = DrinksMenu)
 
 router.start()
 </script>

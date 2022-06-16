@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     colors: {
       'purple': '#6552B5',
-      'light-purple': '#252930',
+      'light-purple': '#31387A',
       'dark-purple': '#151618',
       'beige': '#EEE4DB',
       'red' : "#EF5758",
@@ -16,10 +16,10 @@ module.exports = {
       'white': '#FFFFFF',
       'rose-gold' : "#F8E0D4",
       'black' : '#151618',
-      'black-1' : '#000000',
+      'black-1' : '#0F1334',
       'transparent': 'transparent',
       'dark-rose-gold':'rgba(245,211,194,0.3)',
-      'dark-grey': '#262830',
+      'dark-grey': '#31387A',
       'light-beige': '#EFB598',
     },
     extend: {

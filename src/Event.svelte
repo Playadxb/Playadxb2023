@@ -21,21 +21,21 @@
 
     <PageTransition {url} >
     <section
-        class="flex flex-col items-center py-14 px-5 bg-dark-grey h-auto justify-center relative text-center z-50 space-y-8">
+        class="flex flex-col items-center py-14 px-5 bg-dark-grey h-auto justify-center  text-center z-50 space-y-8">
         <h1 class=" text-dark-red font-bold capitalize text-center lg:text-7xl xl:text-8xl pt-12 z-10">events.</h1>
-        <p class="lg:text-md xl:text-lg text-white text-center leading-6 capitalize w-1/2 mx-auto z-10">Lorem ipsum
-            dolor sit amet,
-            consectetur adipiscing elit.
-            In amet in at magnis semper.</p>
+        <p class="lg:text-md xl:text-lg text-white text-center leading-6 capitalize w-1/2 mx-auto z-10">Brunches, pool events, vibrant night
+            parties and more!
+            Check out our events
+            </p>
     </section>
-    <section style="background-image: url('/stock-photo-the-dj-in-the-red-t-shirt-plays-on-the-dj-equipment-play-vinyl-turntable-on-the-microbrand-1682769967 1.png')" class="event-details-section h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
+    <section style="background-image: url('/events-1.png')" class="event-details-section h-48 lg:h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
         <h1 class=" flex-1 text-dark-red font-bold capitalize text-center lg:text-7xl xl:text-8xl ">03<span
                 class="sup">/12</span></h1>
     </section>
-    <div class=" h-24 w-full bg-dark-grey lg:px-32 xl:px-48 flex items-center">
+    <div class="px-4 h-24 w-full bg-extra-grey lg:px-32 xl:px-48 flex items-center space-x-4">
         <div class="flex flex-row justify-between w-full ">
-            <p class="flex-auto text-white text-lg font-bold">03.03.2021 | 8 PM</p>
-            <p class="flex-auto justify-center text-center text-white text-lg ">SUN CELEBRATIONS <i
+            <p class="flex-auto text-white text-sm lg:text-lg font-bold">03.03.2021 | 8 PM</p>
+            <p class="flex-auto justify-center text-center text-white text-sm lg:text-lg ">SUN CELEBRATIONS <i
                     class="font-semibold">CULTURAL DANCE</i></p>
             <div class="flex-auto justify-end flex flex-row items-center">
                 <p class="text-dark-red text-lg pr-4">Book Now
@@ -48,14 +48,14 @@
             </div>
         </div>
     </div>
-    <section style="background-image: url('/stock-photo-dj-spinning-mixing-and-scratching-in-a-night-club-hands-of-dj-tweak-various-track-controls-on-dj-1027578316 2.png')" class="event-details-section h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
+    <section style="background-image: url('/events-2.png')" class="event-details-section h-48 lg:h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
         <h1 class=" flex-1 text-dark-red font-bold capitalize text-center lg:text-7xl xl:text-8xl ">03<span
                 class="sup">/12</span></h1>
     </section>
-    <div class=" h-24 w-full bg-dark-grey lg:px-32 xl:px-48 flex items-center">
+    <div class="px-4 h-24 w-full bg-extra-grey lg:px-32 xl:px-48 flex items-center space-x-4">
         <div class="flex flex-row justify-between w-full ">
-            <p class="flex-auto text-white text-lg font-bold">03.03.2021 | 8 PM</p>
-            <p class="flex-auto justify-center text-center text-white text-lg ">SUN CELEBRATIONS <i
+            <p class="flex-auto text-white text-sm lg:text-lg font-bold">03.03.2021 | 8 PM</p>
+            <p class="flex-auto justify-center text-center text-white text-sm lg:text-lg ">SUN CELEBRATIONS <i
                     class="font-semibold">CULTURAL DANCE</i></p>
             <div class="flex-auto justify-end flex flex-row items-center">
                 <p class="text-dark-red text-lg pr-4">Book Now
@@ -68,14 +68,14 @@
             </div>
         </div>
     </div>
-    <section style="background-image: url('/stock-photo-the-dj-in-the-red-t-shirt-plays-on-the-dj-equipment-play-vinyl-turntable-on-the-microbrand-1682769967 1.png')" class="event-details-section h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
+    <section style="background-image: url('/events-3.png')" class="event-details-section h-48 lg:h-full w-screen  bg-cover flex flex-col pt-12 pb-10">
         <h1 class=" flex-1 text-dark-red font-bold capitalize text-center lg:text-7xl xl:text-8xl ">03<span
                 class="sup">/12</span></h1>
     </section>
-    <div class=" h-24 w-full bg-dark-grey lg:px-32 xl:px-48 flex items-center">
+    <div class="px-4 h-24 w-full bg-extra-grey lg:px-32 xl:px-48 flex items-center space-x-4">
         <div class="flex flex-row justify-between w-full ">
-            <p class="flex-auto text-white text-lg font-bold">03.03.2021 | 8 PM</p>
-            <p class="flex-auto justify-center text-center text-white text-lg ">SUN CELEBRATIONS <i
+            <p class="flex-auto text-white text-sm lg:text-lg font-bold">03.03.2021 | 8 PM</p>
+            <p class="flex-auto justify-center text-center text-white text-sm lg:text-lg ">SUN CELEBRATIONS <i
                     class="font-semibold">CULTURAL DANCE</i></p>
             <div class="flex-auto justify-end flex flex-row items-center">
                 <p class="text-dark-red text-lg pr-4">Book Now

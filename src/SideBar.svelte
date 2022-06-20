@@ -20,10 +20,12 @@
 <style>
 	aside {
 		right: -100%;
+		display:none;
 		transition: left 0.3s ease-in-out
 	}
 	
 	.open {
+		display: block;
 		right: 0;
 		left: 20%;
 	}

@@ -9,12 +9,20 @@ let hideLogo = false;
 	<div class="flex flex-col items-center px-5 justify-center logo text-center py-48 space-y-10">
 		<h1 class="font-bold text-white md:text-6xl xl:text-8xl xl:w-1/3 mx-auto leading-normal ">Book Now.
 		</h1>
+		<form method="post" action="mailto:wael.m.safa@gmail.com" >
+
 		<div class="grid grid-cols-2 gap-12 my-12  justify-center">
-			<input type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
-			<input placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
-			<input placeholder="Email Adress" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
-			<input placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
+
+			<input type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
+			<input placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
+			<input placeholder="Email Adress" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
+			<input placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
 		</div>
+		<input href="/book"
+		class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2"
+		aria-current="page" type="submit" value="Book Now"/>
+	</form>
+
 	</div>
 </main>
 

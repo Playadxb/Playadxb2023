@@ -119,3 +119,46 @@ aside {
 .dark aside {
 	background: #262830 !important; 
 }
+.dark #landing-hero {
+	background-image:url('/concept_background_night.png') !important;
+
+}
+
+#landing-hero {
+	background-image:url('/concept_background_day.png');
+
+}
+
+.concept-cuisine{
+	content:url("/2-cuisine-day.png");
+}
+
+.dark .concept-cuisine{
+	content:url("/2-cuisine-night.png") !important;
+}
+
+
+.concept-cocktail{
+	content:url("/3-cocktail-day.png");
+}
+
+.dark .concept-cocktail{
+	content:url("/3-cocktail-night.png") !important;
+}
+
+
+.menu-item-1{
+	content:url("/menu-item-1.png");
+}
+
+.dark .menu-item-1{
+	content:url("/menu-item-1-dark.png") !important;
+}
+
+.menu-item-2{
+	content:url("/menu-item-1.png");
+}
+
+.dark .menu-item-2{
+	content:url("/menu-item-2-dark.png") !important;
+}

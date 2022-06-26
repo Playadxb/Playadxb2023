@@ -7,9 +7,9 @@
     let open2 = false;
 </script>
 <SideBar bind:open={open}/>
-<nav class=" {isTransparent  === true ? 'bg-transparent dark:bg-transparent absolute top-0' : 'bg-white dark:bg-black-1'} block px-6 lg:px-16 border-gray-200  sm:px-4 py-6 h-36 w-full z-10">
+<nav class=" {isTransparent  === true ? 'bg-transparent dark:bg-transparent absolute top-0' : 'bg-white dark:bg-black-1'} block lg:px-16 border-gray-200  sm:px-4 py-6 h-36 w-full z-10">
     <TopBar bind:open2={open2} bind:isTransparent={isTransparent} />
-    <div class=" mx-auto {open2 === true ? 'hidden' : 'container'} ">
+    <div class=" mx-auto {open2 === true ? 'hidden' : 'container'} px-6 ">
         <div class="flex justify-end lg:justify-start  items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-3">
             <div class="{hideLogo === true ? '' : 'lg:visible' } invisible   " style="flex-grow:1">
                 <a href="/" ><img src="./playa_red_logo.webp" alt="" class="h-24" srcset=""></a>

@@ -55,6 +55,7 @@ module.exports = {
       "./src/Book.svelte",
       "./src/Footer.svelte",
       "./src/Event.svelte",
+      "./src/DrinksMenu.svelte",
       "./src/Concept.svelte",
     ],
   },

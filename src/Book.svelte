@@ -1,6 +1,18 @@
 <script>
 import Navbar from "./Navbar.svelte";
-
+function sendEmail() {
+	Email.send({
+	Host: "smtp.gmail.com",
+	Username : "wael.m.safa@gmail.com",
+	Password : "<email password>",
+	To : 'wael.m.safa@gmail.com',
+	From : "wael.m.safa@gmail.com",
+	Subject : "<email subject>",
+	Body : "<email body>",
+	}).then(
+		message => alert("mail sent successfully")
+	);
+}
 let hideLogo = false;
 </script>
 
@@ -9,7 +21,7 @@ let hideLogo = false;
 	<div class="flex flex-col items-center px-5 justify-center logo text-center py-48 space-y-10">
 		<h1 class="font-bold text-white md:text-6xl xl:text-8xl xl:w-1/3 mx-auto leading-normal ">Book Now.
 		</h1>
-		<form method="post" action="mailto:wael.m.safa@gmail.com" >
+		<form method="post"  >
 
 		<div class="grid grid-cols-2 gap-12 my-12  justify-center">
 
@@ -20,7 +32,7 @@ let hideLogo = false;
 		</div>
 		<input href="/book"
 		class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2"
-		aria-current="page" type="submit" value="Book Now"/>
+		aria-current="page" onclick="sendEmail()" type="submit" value="Book Now"/>
 	</form>
 
 	</div>

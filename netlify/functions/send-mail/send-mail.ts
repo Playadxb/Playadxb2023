@@ -22,7 +22,7 @@ exports.handler = function(event, context, callback) {
       },
     recipients: [{ address: 'reservations@playadxb.com' }]
   }).then(data => {
-    console.log('Woohoo! You just sent your first mailing!')
+    return data;
     console.log(data)
   })
   .catch(err => {

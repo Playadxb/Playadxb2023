@@ -54,7 +54,7 @@
 	
 	.topbar.open2 {
 		top: 0;
-        position:initial;
+        position:relative;
         
 	}
 </style>

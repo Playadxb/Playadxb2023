@@ -6,10 +6,14 @@ async function sendEmail() {
 	let email = document.getElementById("email-contact").value;
 	let date = document.getElementById("reservation-date").value;
     let url = `/.netlify/functions/send-mail?name=${name}&email=${email}&date=${date}&number=${number}`;
-	url.replace('8080', '8888')
+	url = url.replace('8080', '8888');
+	alert("The team will get back to you soon");
+
     try {
         const response = await fetch(url);
         const data = await response.json();
+
+
         return data;
     } catch (err) {
         console.log(err);

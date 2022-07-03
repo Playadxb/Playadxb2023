@@ -20,9 +20,9 @@ exports.handler = function(event, context, callback) {
           <li>Phone Number:${number}</li>
           </ul></body></html>`
       },
-    recipients: [{ address: 'wael.m.safa@gmail.com' }]
+    recipients: [{ address: 'reservations@playadxb.com' }]
   }).then(data => {
-    console.log('Woohoo! You just sent your first mailing!')
+    return data;
     console.log(data)
   })
   .catch(err => {

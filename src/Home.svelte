@@ -7,25 +7,17 @@
 			url
 		}
 	});
-</script>
 
-<script>
 	import Footer from './Footer.svelte'
 	import PageTransition from './PageTransition.svelte'
 	import Navbar from './Navbar.svelte'
 	export let url;
 	/** @type {import('@sveltejs/kit').Load} */
 
-	export const load = async ({
-		url
-	}) => ({
-		props: {
-			url
-		}
-	});
 	let hideLogo = true;
 	let isTransparent = true;
 </script>
+
 
 
 <main class="h-full bg-black text-white main-content relative ">
@@ -34,8 +26,11 @@
 
 	<PageTransition {url}>
 		<section
-			class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover landing-hero">
-			<div class="self-center flex-auto lg:w-1/2">
+			class="min-h-full lg:max-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover landing-hero">
+			<div style="background-image:url('/3 WAVES CLOCK.jpg')" class=" invisible lg:visible absolute top-0 w-full h-screen background-img">
+				<div class="blur"></div>
+			</div>
+			<div class="z-10 self-center flex-auto lg:w-1/2">
 				<div class="flex flex-col m-auto w-4/5 lg:w-1/2 space-y-6">
 					<img class="m-auto" src="/logo.png" alt="Playa Logo" />
 					<p class="text-sm xl:text-xl sm:text-center lg:text-left text-white leading-6">PLAYA is the ideal
@@ -164,16 +159,15 @@
 					<path d="M479 0L478 478L265.5 479L0 477L264.5 216L479 0Z" fill="black" fill-opacity="0.55" />
 				</svg>
 
-			</div>
+		</div>
 		</section>
 
 		<section
 			class="h-auto items-center bg-white dark:bg-light-purple flex flex-col-reverse lg:flex-row justify-center text-center md:pt-24 lg:pt-8">
 			<div class="relative self-center h-auto  flex-auto w-full lg:w-1/2 xl:ml-24 lg:mt-24 md:mt-0">
-				<img class="absolute bottom-0 lg:top-0 left-44 2xl:ml-40 2xl:w-80 lg:ml-20 lg:w-64 md:w-64 w-48"
-					src="/menu-item-2.png" alt="Drinks" />
+				<img class="absolute bottom-0 lg:top-0 left-44 2xl:ml-40 2xl:w-80 lg:ml-20 lg:w-64 md:w-64 w-48 menu-item-2" alt="Drinks" />
 
-				<img class="bottom-0 lg:top-0 left-0 mt-14 2xl:ml-40 lg:ml-20 2xl:w-80 w-52" src="/menu-item-1.png"
+				<img class="bottom-0 lg:top-0 left-0 mt-14 2xl:ml-40 lg:ml-20 2xl:w-80 w-52 menu-item-1"
 					alt="Workplace" />
 			</div>
 			<div class="flex flex-col mx-auto w-4/5 lg:w-1/2 space-y-6 self-baseline lg:mt-16 xl:mt-24 mt-10 "
@@ -222,10 +216,10 @@
 
 		<section
 			class="h-auto w-auto items-center bg-rose-gold dark:bg-black-1 flex flex-row-reverse justify-center text-center md:pt-24 lg:pt-8">
-			<div class="flex w-screen p-8 xl:p-16 my-8 xl:my-16 xl:space-x-24 space-x-12">
-				<img src="/book-now-1.png" alt="book-1" class="2xl:h-auto hidden lg:block md:h-96" />
-				<img src="/book-now-2.png" alt="book-2" class="2xl:h-auto hidden lg:block md:h-96" />
-				<img src="/book-now-3.png" alt="book-3" class="2xl:h-auto hidden lg:block md:h-96" />
+			<div class="flex w-screen my-8 xl:my-16 xl:space-x-24 space-x-12">
+				<img src="/book-now-1.png" alt="book-1" class=" hidden lg:block md:h-96 w-auto" />
+				<img src="/book-now-2.png" alt="book-2" class=" hidden lg:block md:h-96" />
+				<img src="/book-now-3.png" alt="book-3" class=" hidden lg:block md:h-96" />
 				<div class="flex flex-grow flex-col justify-center space-y-6">
 					<img class="mr-auto" src="/book_sun.svg" alt="sun" />
 					<h1 class="text-red text-bold capitalize text-left text-6xl lg:text-8xl w-1/2">Book Now.</h1>
@@ -395,4 +389,16 @@
 	fill: #C4BABA;
 }
 }
+.background-img{
+background-image:url('/3 WAVES CLOCK.jpg') ;
+background-size:cover;
+
+}
+
+@media only screen and  (min-width:1200px) {
+	.shaddow{
+		bottom:10.25%;
+	}
+}
+
 </style>

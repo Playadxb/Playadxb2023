@@ -10,8 +10,8 @@
 		<hr class="w-1/2 bg-red dark:bg-rose-gold"/>
 		<a class=" text-red font-semibold dark:text-rose-gold text-4xl" href="/concept">Concept</a>
 		<hr class="w-1/2 bg-red dark:bg-rose-gold"/>
-		<a class=" text-red font-semibold dark:text-rose-gold text-4xl" href="/events">Events</a>
-		<hr class="w-1/2 bg-red dark:bg-rose-gold"/>
+		<!-- <a class=" text-red font-semibold dark:text-rose-gold text-4xl" href="/events">Events</a> -->
+		<!-- <hr class="w-1/2 bg-red dark:bg-rose-gold"/> -->
 		<a class=" text-red font-semibold dark:text-rose-gold text-4xl" href="/book">Book Now</a>
 		<hr class="w-1/2 bg-red dark:bg-rose-gold"/>
 	</nav>
@@ -20,10 +20,12 @@
 <style>
 	aside {
 		right: -100%;
+		display:none;
 		transition: left 0.3s ease-in-out
 	}
 	
 	.open {
+		display: block;
 		right: 0;
 		left: 20%;
 	}

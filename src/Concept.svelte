@@ -7,7 +7,7 @@
     
     <main class="h-full xl:h-full text-white main-content bg-cover bg-repeat bg-rose-gold dark:bg-dark-grey">
         <Navbar bind:isTransparent={isTransparent} bind:hideLogo="{hideLogo}" />
-        <section style="background-image:url('./concept_backgtound.png')" class="min-h-full flex flex-row-reverse justify-items-end justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-cover lg:bg-cover md:bg-cover " id="landing-hero">
+        <section style="" class="min-h-full flex flex-row-reverse justify-items-end justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-cover lg:bg-cover md:bg-cover " id="landing-hero">
             <div  class="self-center flex-auto lg:w-1/2 ml-auto">
                 <div  class="flex flex-col w-4/5   lg:w-1/2 space-y-6 m-auto">
                     <h1 class="text-5xl text-center lg:text-left text-white leading-6">Concept.</h1>
@@ -21,7 +21,7 @@
         </section>
         
         <section class="h-auto items-center  bg-white dark:bg-dark-grey flex flex-col-reverse lg:flex-row-reverse justify-center text-center md:pt-24 lg:pt-24">
-            <img class="h-auto lg:w-1/2 xl:w-2/3 z-10 bg-contain m-auto lg:mt-auto mt-8" src="/cuisine.png" alt="Tent" />
+            <img class="h-auto lg:w-1/2 xl:w-2/3 z-10 bg-contain m-auto lg:mt-auto mt-8 concept-cuisine"  alt="Tent" />
     
             <div class="flex relative flex-col mr-auto w-4/5 lg:w-1/2 xl:w-1/3 p-auto space-y-6 self-baseline mt-12 pl-12 lg:pl-24 z-10"
                 id="concept-section">
@@ -66,6 +66,10 @@
             opacity: 56%;
         }
     
+
+
+        
+
         /* 
         #email-input::placeholder {
             font-style: italic;

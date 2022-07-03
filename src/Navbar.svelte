@@ -7,15 +7,15 @@
     let open2 = false;
 </script>
 <SideBar bind:open={open}/>
-<nav class=" {isTransparent  === true ? 'bg-transparent dark:bg-transparent absolute top-0' : 'bg-white dark:bg-black-1'} block px-6 lg:px-16 border-gray-200  sm:px-4 py-6 h-36 w-full z-10">
+<nav class=" {isTransparent  === true ? 'bg-transparent dark:bg-transparent absolute top-0' : 'bg-white dark:bg-black-1'} block lg:px-16 border-gray-200  sm:px-4 py-6 h-36 w-full z-10">
     <TopBar bind:open2={open2} bind:isTransparent={isTransparent} />
-    <div class=" mx-auto {open2 === true ? 'hidden' : 'container'} ">
+    <div class=" mx-auto {open2 === true ? 'hidden' : 'container'} px-6 ">
         <div class="flex justify-end lg:justify-start  items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-3">
             <div class="{hideLogo === true ? '' : 'lg:visible' } invisible   " style="flex-grow:1">
                 <a href="/" ><img src="./playa_red_logo.webp" alt="" class="h-24" srcset=""></a>
             </div>
             <div class="flex flex-col h-14 space-x-9 md:flex-row md:mt-0 ">
-                <a href="https://goo.gl/maps/v4bXnnRKpRQHVX8g8" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-dark-rose-gold hidden lg:block"
+                <a href="https://www.google.com/maps/place/445Q%2BWC+PLAYA+-+The+Palm+Jumeirah+-+Dubai+-+United+Arab+Emirates/@25.1110191,55.1368641,18z/data=!4m2!3m1!1s0x3e5f6bcfef29a013:0xa21cb1ec15d8c66b" class="xl:w-16 xl:h-16 w-14 h-14 rounded-full bg-dark-rose-gold hidden lg:block"
                     aria-current="page">
                     <svg width="18" height="22" viewBox="0 0 18 22" class="h-full m-auto" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -39,8 +39,10 @@
                 <a href="/book"
                     class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2 hidden lg:block"
                     aria-current="page" >book now</a>
-                <button class="flex justify-center items-center h-full cursor-pointer click" on:click={() =>{ open = !open; open2 = !open2; isTransparent = !isTransparent}} ><img  src="/humburger-menu-icon.svg"
+                <button class="hidden lg:block flex justify-center items-center h-full cursor-pointer click" on:click={() =>{ open2 = !open2; isTransparent = !isTransparent}} ><img  src="/humburger-menu-icon.svg"
                         /></button>
+                <button class="lg:hidden flex justify-center items-center h-full cursor-pointer click" on:click={() =>{ open = !open;}} ><img  src="/humburger-menu-icon.svg"
+                            /></button>
 
             </div>
         </div>

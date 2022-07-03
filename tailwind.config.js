@@ -20,6 +20,7 @@ module.exports = {
       'transparent': 'transparent',
       'dark-rose-gold':'rgba(245,211,194,0.3)',
       'dark-grey': '#31387A',
+      'extra-grey' : '#262830',
       'light-beige': '#EFB598',
     },
     extend: {
@@ -54,6 +55,7 @@ module.exports = {
       "./src/Book.svelte",
       "./src/Footer.svelte",
       "./src/Event.svelte",
+      "./src/DrinksMenu.svelte",
       "./src/Concept.svelte",
     ],
   },

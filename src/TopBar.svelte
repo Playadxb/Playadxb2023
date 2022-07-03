@@ -34,9 +34,9 @@
 				<a href="/concept"
 				class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 bg-transparent py-5 px-2 hidden lg:block"
 				aria-current="page" >Concept</a>
-				<a href="/events"
-				class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 bg-transparent py-5 px-2 hidden lg:block"
-				aria-current="page" >Events</a>
+				<!-- <a href="/events" -->
+				<!-- class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 bg-transparent py-5 px-2 hidden lg:block" -->
+				<!-- aria-current="page" >Events</a> -->
                 <a href="/book"
                     class="uppercase h-auto self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2 hidden lg:block"
                     aria-current="page" >book now</a>

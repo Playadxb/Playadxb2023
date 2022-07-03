@@ -1,6 +1,20 @@
 <script>
 import Navbar from "./Navbar.svelte";
-
+async function sendEmail() {
+	let name = document.getElementById("name-contact").value;
+	let number = document.getElementById("number-contact").value;
+	let email = document.getElementById("email-contact").value;
+	let date = document.getElementById("reservation-date").value;
+    let url = `/.netlify/functions/send-mail?name=${name}&email=${email}&date=${date}&number=${number}`;
+	url.replace('8080', '8888')
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+    } catch (err) {
+        console.log(err);
+    }
+}
 let hideLogo = false;
 </script>
 
@@ -9,12 +23,18 @@ let hideLogo = false;
 	<div class="flex flex-col items-center px-5 justify-center logo text-center py-48 space-y-10">
 		<h1 class="font-bold text-white md:text-6xl xl:text-8xl xl:w-1/3 mx-auto leading-normal ">Book Now.
 		</h1>
+
 		<div class="grid grid-cols-2 gap-12 my-12  justify-center">
-			<input type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
-			<input placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
-			<input placeholder="Email Adress" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
-			<input placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2" />
+
+			<input id="reservation-date" type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
+			<input id="name-contact" placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
+			<input id="email-contact" placeholder="Email Adress" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
+			<input id="number-contact" placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
 		</div>
+		<button 
+		class="uppercase h-auto pt-4 self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2"
+		aria-current="page" on:click="{sendEmail}" > Book Now</button>
+
 	</div>
 </main>
 

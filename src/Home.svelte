@@ -63,7 +63,7 @@
 							d="M398.65,1.31l-22.18,540.5C227.5,535.74,94.72,469.77,.78,367.82L398.65,1.31Z" />
 					</g>
 				</svg>
-				<svg class="absolute bottom-0 left-auto" style="left:20%; top:20%" id="icon-1" width="54" height="54"
+				<a href="/Playa-Menu.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:20%; top:20%" id="icon-1" width="54" height="54"
 					viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_b_3967_116)">
 						<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
@@ -85,8 +85,8 @@
 						<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3967_116" result="shape"/>
 						</filter>
 						</defs>
-				</svg>
-				<svg class="absolute bottom-0 left-auto" style="left:15%; top:52%" id="icon-2"  width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+				</svg></a>
+				<a href="/Pool & Beach menu- Day.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:15%; top:52%" id="icon-2"  width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_b_3967_115)">
 						<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
 						</g>
@@ -101,8 +101,8 @@
 						<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3967_115" result="shape"/>
 						</filter>
 						</defs>
-				</svg>
-				<svg class="absolute bottom-0 left-auto" style="left:45%; top:80%" id="icon-3" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+				</svg></a>
+				<a href="/Restaurant Menu.pdf.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:45%; top:80%" id="icon-3" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_b_3967_114)">
 						<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
 						</g>
@@ -115,7 +115,7 @@
 						<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3967_114" result="shape"/>
 						</filter>
 						</defs>
-					</svg>
+					</svg></a>
 					<svg class="absolute bottom-0 left-auto" style="left:75%; top:76%" id="icon-4" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_b_3967_112)">
 							<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>

@@ -1,0 +1,15 @@
+[dev]
+  command = "npm run dev"
+  port = 8888
+  targetPort = 8080
+  publish = "dist" 
+  autoLaunch = true
+  framework = "#custom"
+
+[build]
+  command = "npm run build"
+  port = 8888
+  targetPort = 8080
+  publish = "dist" 
+  autoLaunch = true
+  framework = "#custom"

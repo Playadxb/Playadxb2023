@@ -26,8 +26,11 @@
 
 	<PageTransition {url}>
 		<section
-			class="min-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover landing-hero">
-			<div class="self-center flex-auto lg:w-1/2">
+			class="min-h-full lg:max-h-full flex flex-row justify-center text-center sm:bg-no-repeat xl:bg-repeat xl:bg-contain lg:bg-cover md:bg-cover landing-hero">
+			<div style="background-image:url('/3 WAVES CLOCK.jpg')" class=" invisible lg:visible absolute top-0 w-full h-screen background-img">
+				<div class="blur"></div>
+			</div>
+			<div class="z-10 self-center flex-auto lg:w-1/2">
 				<div class="flex flex-col m-auto w-4/5 lg:w-1/2 space-y-6">
 					<img class="m-auto" src="/logo.png" alt="Playa Logo" />
 					<p class="text-sm xl:text-xl sm:text-center lg:text-left text-white leading-6">PLAYA is the ideal
@@ -156,7 +159,7 @@
 					<path d="M479 0L478 478L265.5 479L0 477L264.5 216L479 0Z" fill="black" fill-opacity="0.55" />
 				</svg>
 
-			</div>
+		</div>
 		</section>
 
 		<section
@@ -386,4 +389,16 @@
 	fill: #C4BABA;
 }
 }
+.background-img{
+background-image:url('/3 WAVES CLOCK.jpg') ;
+background-size:cover;
+
+}
+
+@media only screen and  (min-width:1200px) {
+	.shaddow{
+		bottom:10.25%;
+	}
+}
+
 </style>

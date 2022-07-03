@@ -51,12 +51,14 @@ button:focus {
 	border-color: #666;
 }
 
-.landing-hero {
-	background-image: url('/home-drinks.png')  !important;
-}
-
-.dark .landing-hero {
-	background-image: url('/playa-landing-hero.png')  !important;
+@media (max-width: 767px) {
+	.landing-hero {
+		background-image: url('/home-drinks.png')  !important;
+	}
+	
+	.dark .landing-hero {
+		background-image: url('/playa-landing-hero.png')  !important;
+	}
 }
 
 #drinks-section img:first-child {
@@ -161,4 +163,15 @@ aside {
 
 .dark .menu-item-2{
 	content:url("/menu-item-2-dark.png") !important;
+}
+
+
+.blur {
+	background: linear-gradient(180deg, rgba(83, 83, 83, 0.18) 0%, #FFFFFF 105.15%);
+	backdrop-filter: blur(2px);
+    height: 100%;
+}
+
+.dark .blur {
+	background: linear-gradient(180deg, rgba(35, 35, 35, 0) 0%, #31387A 100%);
 }

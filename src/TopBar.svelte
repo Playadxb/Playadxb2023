@@ -4,7 +4,7 @@
 </script>
 
 
-    <div class="container mx-auto topbar " class:open2>
+    <div class="container mx-auto topbar z-10"  class:open2>
         <div class="flex justify-end lg:justify-start  items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-3">
             <div class="visible    " style="flex-grow:1">
                 <a href="/" ><img src="./playa_red_logo.webp" alt="" class="h-24" srcset=""></a>

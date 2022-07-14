@@ -119,7 +119,7 @@
 						</svg>
 						</a>
 						
-						<a href="/Playa-Menu.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:75%; top:76%" id="icon-4" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<a href="/menu/list" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:75%; top:76%" id="icon-4" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_b_3967_112)">
 							<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
 							</g>
@@ -183,7 +183,7 @@
 					vibrant colours and flavours of the Peruvian culture will enliven your senses with our menu.
 					Come in and indulge in our luscious Peruvian dishes!
 				</p>
-				<a href="./Playa-Menu.pdf" class="text-red capitalize cursor-pointer" target="_blank" >
+				<a href="/menu/list" class="text-red capitalize cursor-pointer" target="_blank" >
 					<p class="lg:text-lg xl:text-xl text-left text-red leading-6">
 						View Menu
 					</p>
@@ -218,19 +218,19 @@
 		</section>
 
 		<section
-			class="h-auto w-auto items-center bg-rose-gold dark:bg-black-1 flex flex-row-reverse justify-center text-center md:pt-24 lg:pt-8">
+			class="h-auto w-auto items-center bg-rose-gold dark:bg-black-1 flex flex-row-reverse justify-center text-center md:pt-24 lg:pt-8 px-12 lg:px-16">
 			<div class="flex w-screen my-8 xl:my-16 xl:space-x-24 space-x-12">
 				<img src="/book-now-1.png" alt="book-1" class=" hidden lg:block md:h-96 w-auto" />
 				<img src="/book-now-2.png" alt="book-2" class=" hidden lg:block md:h-96" />
 				<img src="/book-now-3.png" alt="book-3" class=" hidden lg:block md:h-96" />
 				<div class="flex flex-grow flex-col justify-center space-y-6">
 					<img class="mr-auto" src="/book_sun.svg" alt="sun" />
-					<h1 class="text-red text-bold capitalize text-left text-6xl lg:text-8xl w-1/2">Book Now.</h1>
-					<svg width="35" height="16" viewBox="0 0 35 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<h1 class="text-red text-bold capitalize text-left text-4xl xl:text-8xl lg:text-6xl w-1/2">Book Now.</h1>
+					<a href="/book" target="_blank" ><svg width="35" height="16" viewBox="0 0 35 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
 							d="M1 7C0.447715 7 -4.8282e-08 7.44772 0 8C1.07887e-07 8.55229 0.447715 9 1 9L1 7ZM34.7071 8.7071C35.0976 8.31658 35.0976 7.68341 34.7071 7.29289L28.3431 0.92893C27.9526 0.538406 27.3195 0.538406 26.9289 0.92893C26.5384 1.31945 26.5384 1.95262 26.9289 2.34314L32.5858 8L26.9289 13.6569C26.5384 14.0474 26.5384 14.6805 26.9289 15.0711C27.3195 15.4616 27.9526 15.4616 28.3431 15.0711L34.7071 8.7071ZM1 9L34 9L34 7L1 7L1 9Z"
 							fill="#EF5758" />
-					</svg>
+					</svg></a>
 				</div>
 			</div>
 		</section>

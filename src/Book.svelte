@@ -32,7 +32,7 @@ let hideLogo = false;
 
 			<input id="reservation-date" type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
 			<input id="name-contact" placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
-			<input id="email-contact" placeholder="Email Adress" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
+			<input id="email-contact" placeholder="Email" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
 			<input id="number-contact" placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
 		</div>
 		<button 
@@ -57,7 +57,9 @@ let hideLogo = false;
 		
 	}
 
-
+	input::placeholder {
+        text-align: left;
+      }
 /* 
 	#email-input::placeholder {
 		font-style: italic;

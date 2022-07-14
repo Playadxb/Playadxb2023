@@ -175,3 +175,7 @@ aside {
 .dark .blur {
 	background: linear-gradient(180deg, rgba(35, 35, 35, 0) 0%, #31387A 100%);
 }
+
+input::placeholder {
+	text-align: left;
+  }

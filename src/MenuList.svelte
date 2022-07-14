@@ -98,7 +98,6 @@
         #book-bg{
             background-image:
                 url('/menu-list.png');
-            
         }
     
     

@@ -10,7 +10,7 @@
 
 	router('/', () => page = Home)
 	router('/book', () => page = Book)
-	router('/menu/list', () => page = MenuList)
+	router('/menus', () => page = MenuList)
 	// router('/events', () => page = Event)
 	router('/concept', () => page = Concept)
 	router('/menu', () => page = DrinksMenu)

@@ -119,7 +119,7 @@
 						</svg>
 						</a>
 						
-						<a href="/menu/list" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:75%; top:76%" id="icon-4" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<a href="/menus" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:75%; top:76%" id="icon-4" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g filter="url(#filter0_b_3967_112)">
 							<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
 							</g>
@@ -183,7 +183,7 @@
 					vibrant colours and flavours of the Peruvian culture will enliven your senses with our menu.
 					Come in and indulge in our luscious Peruvian dishes!
 				</p>
-				<a href="/menu/list" class="text-red capitalize cursor-pointer" target="_blank" >
+				<a href="/menus" class="text-red capitalize cursor-pointer" target="_blank" >
 					<p class="lg:text-lg xl:text-xl text-left text-red leading-6">
 						View Menu
 					</p>

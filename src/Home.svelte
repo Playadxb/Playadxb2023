@@ -184,6 +184,7 @@
 					Come in and indulge in our luscious Peruvian dishes!
 				</p>
 				<a href="/menus" class="text-red capitalize cursor-pointer">
+
 					<p class="lg:text-lg xl:text-xl text-left text-red leading-6">
 						View Menu
 					</p>

@@ -5,10 +5,12 @@
 	// import Event from './Event.svelte'
 	import Concept from './Concept.svelte'
 	import DrinksMenu from './DrinksMenu.svelte'
+	import MenuList from './MenuList.svelte'
 	let page
 
 	router('/', () => page = Home)
 	router('/book', () => page = Book)
+	router('/menu/list', () => page = MenuList)
 	// router('/events', () => page = Event)
 	router('/concept', () => page = Concept)
 	router('/menu', () => page = DrinksMenu)

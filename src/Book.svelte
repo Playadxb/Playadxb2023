@@ -25,15 +25,15 @@ let hideLogo = false;
 <main id="book-bg" class="h-full xl:h-full text-white main-content bg-cover bg-repeat">
 	<Navbar bind:hideLogo={hideLogo}/>
 	<div class="flex flex-col items-center px-5 justify-center logo text-center py-48 space-y-10">
-		<h1 class="font-bold text-white md:text-6xl xl:text-8xl xl:w-1/3 mx-auto leading-normal ">Book Now.
+		<h1 class="font-bold text-white text-4xl md:text-6xl xl:text-8xl xl:w-1/3 mx-auto leading-normal ">Book Now.
 		</h1>
 
 		<div class="grid grid-cols-2 gap-12 my-12  justify-center">
 
-			<input id="reservation-date" type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
-			<input id="name-contact" placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
-			<input id="email-contact" placeholder="Email Adress" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
-			<input id="number-contact" placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75" />
+			<input id="reservation-date" type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
+			<input id="name-contact" placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
+			<input id="email-contact" placeholder="Email Adress" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
+			<input id="number-contact" placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
 		</div>
 		<button 
 		class="uppercase h-auto pt-4 self-center text-center w-40 text-rose-gold visited:text-rose-gold dark:text-white font-bold text-18 border-2 border-solid border-rose-gold bg-transparent py-5 px-2"

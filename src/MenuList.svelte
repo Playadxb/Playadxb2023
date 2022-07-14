@@ -97,8 +97,7 @@
     
         #book-bg{
             background-image:
-                url('/concept_tent.png');
-            
+                url('/menu-list.png');
         }
     
     

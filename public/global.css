@@ -114,6 +114,10 @@ button:focus {
 	display: none;
 }
 
+.wave-2 {
+	display: block;
+}
+
 aside {
 	background: linear-gradient(180deg, #FBEEE6 0%, #FFFFFF 100%);
 }

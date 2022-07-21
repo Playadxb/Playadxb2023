@@ -63,7 +63,7 @@
 							d="M398.65,1.31l-22.18,540.5C227.5,535.74,94.72,469.77,.78,367.82L398.65,1.31Z" />
 					</g>
 				</svg>
-				<a href="/Beverage & Wine Menu.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:20%; top:20%" id="icon-1" width="54" height="54"
+				<a href="/Drinks Menu.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:20%; top:20%" id="icon-1" width="54" height="54"
 					viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_b_3967_116)">
 						<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
@@ -86,7 +86,7 @@
 						</filter>
 						</defs>
 				</svg></a>
-				<a href="/Pool & Beach menu- Day.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:15%; top:52%" id="icon-2"  width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<a href="/Pool & Beach Menu .pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:15%; top:52%" id="icon-2"  width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_b_3967_115)">
 						<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
 						</g>
@@ -102,7 +102,7 @@
 						</filter>
 						</defs>
 				</svg></a>
-				<a href="/Restaurant Menu.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:45%; top:80%" id="icon-3" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<a href="/Food Menu.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:45%; top:80%" id="icon-3" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_b_3967_114)">
 
 						<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
@@ -220,9 +220,9 @@
 		<section
 			class="h-auto w-auto items-center bg-rose-gold dark:bg-black-1 flex flex-row-reverse justify-center text-center md:pt-24 lg:pt-8 px-12 lg:px-16">
 			<div class="flex w-screen my-8 xl:my-16 xl:space-x-24 space-x-12">
-				<img src="/book-now-1.png" alt="book-1" class=" hidden lg:block md:h-96 w-auto" />
-				<img src="/book-now-2.png" alt="book-2" class=" hidden lg:block md:h-96" />
-				<img src="/book-now-3.png" alt="book-3" class=" hidden lg:block md:h-96" />
+				<img src="/book-now-1.png" alt="book-1" class=" hidden lg:block w-48 object-cover h-auto md:h-96 " />
+				<img src="/book-now-2.png" alt="book-2" class=" hidden lg:block w-48 object-cover h-auto md:h-96" />
+				<img src="/book-now-3.png" alt="book-3" class=" hidden lg:block w-48 object-cover h-auto md:h-96" />
 				<div class="flex flex-grow flex-col justify-center space-y-6">
 					<img class="mr-auto" src="/book_sun.svg" alt="sun" />
 					<h1 class="text-red text-bold capitalize text-left text-4xl xl:text-8xl lg:text-6xl w-1/2">Book Now.</h1>

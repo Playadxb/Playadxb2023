@@ -86,7 +86,7 @@
 						</filter>
 						</defs>
 				</svg></a>
-				<a href="/Pool & Beach Menu .pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:15%; top:52%" id="icon-2"  width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<a href="/Pool & Beach Menu.pdf" target="_blank"><svg class="absolute bottom-0 left-auto" style="left:15%; top:52%" id="icon-2"  width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g filter="url(#filter0_b_3967_115)">
 						<circle cx="27" cy="27" r="27" fill="#747474" fill-opacity="0.56"/>
 						</g>

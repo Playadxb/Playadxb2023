@@ -23,7 +23,7 @@
                 <span class=" text-2xl lg:text-4xl underline text-red py-5 px-2 placeholder-opacity-75" >Beverages</span>
             </div>
         </a>
-        <a href="/Pool & Beach Menu .pdf" target="_blank">
+        <a href="/Pool & Beach Menu.pdf" target="_blank">
             <div class="flex flex-row justify-center items-center space-x-4 ">
                 <img src="/wave-icon.png" alt="" class="left-auto ">
 

@@ -53,9 +53,21 @@ let hideLogo = false;
 
 	#book-bg{
 		background-image:
-			url('/concept_tent.png');
+			url('/Book_bg.jpg');
+		background-position-y:-20em;
 		
 	}
+	@media (max-width: 600px) {
+
+	#book-bg{
+		background-image:
+			url('/Book_bg.jpg');
+		background-position-y:center;
+		background-repeat: no-repeat;
+		background-position-x: center;
+		
+	}
+}
 
 	input::placeholder {
         text-align: left;

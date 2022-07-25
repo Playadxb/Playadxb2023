@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run build:tailwind && rollup -c",
     "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\"",
-    "start": "sirv public --single",
+    "start": "sirv public -s --no-clear",
     "watch:tailwind": "postcss public/tailwind.css -o public/index.css -w",
     "build:tailwind": "postcss public/tailwind.css -o public/index.css",
     "serve": "serve public -p 80"

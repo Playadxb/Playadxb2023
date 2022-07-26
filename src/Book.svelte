@@ -22,7 +22,7 @@ async function sendEmail() {
 let hideLogo = false;
 </script>
 
-<main id="book-bg" class="h-full xl:h-full text-white main-content bg-cover bg-repeat">
+<main style="height:fit-content" id="book-bg" class="h-full xl:h-full text-white main-content bg-cover bg-repeat">
 	<Navbar bind:hideLogo={hideLogo}/>
 	<div class="flex flex-col items-center px-5 justify-center logo text-center py-48 space-y-10">
 		<h1 class="font-bold text-white text-4xl md:text-6xl xl:text-8xl xl:w-1/3 mx-auto leading-normal ">Book Now.
@@ -30,7 +30,7 @@ let hideLogo = false;
 
 		<div class="grid grid-cols-2 gap-12 my-12  justify-center">
 
-			<input id="reservation-date" placeholder="date" onblur="this.placeholder = 'Date'"  type="date" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
+			<input id="reservation-date" placeholder="Date" type="text" onfocus="(this.type='date')" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
 			<input id="name-contact" placeholder="Name" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
 			<input id="email-contact" placeholder="Email" type="email" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />
 			<input id="number-contact" placeholder="Phone Number" type="name" class="h-auto xl:w-80 lg:w-72 self-center text-center w-40  text-white font-bold text-18 border-2 border-solid border-white bg-transparent py-5 px-2 placeholder-opacity-75 placeholder-white" />

@@ -5,7 +5,8 @@ var localOffset = d.getTimezoneOffset() * 60000;
 var utc = localTime + localOffset;
 var offset = 4;    //UTC of Dubai is +04.00
 var dubai = utc + (3600000*offset);
-var current_hour = d.getHours();
+var dubaiDate = new Date(dubai);
+var current_hour = dubaiDate.getHours();
 // On page load or when changing themes, best to add inline in `head` to avoid FOUC
 if (current_hour >= 18 || current_hour <= 6) {
     document.documentElement.classList.add('dark')

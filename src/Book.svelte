@@ -61,7 +61,7 @@ let hideLogo = false;
 
 	#book-bg{
 		background-image:
-			url('/Book_bg.jpg');
+			url('/concept_tent.png');
 		background-position-y:center;
 		background-repeat: no-repeat;
 		background-position-x: center;

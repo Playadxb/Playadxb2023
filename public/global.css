@@ -1,5 +1,3 @@
-
-
 html, body {
 	position: relative;
 	width: 100%;
@@ -14,18 +12,7 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-a {
-	color: rgb(0,100,200);
-	text-decoration: none;
-}
 
-a:hover {
-	text-decoration: underline;
-}
-
-a:visited {
-	color: rgb(0,80,160);
-}
 
 label {
 	display: block;
@@ -63,3 +50,132 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+@media (max-width: 767px) {
+	.landing-hero {
+		background-image: url('/home-drinks.png')  !important;
+	}
+	
+	.dark .landing-hero {
+		background-image: url('/playa-landing-hero.png')  !important;
+	}
+}
+
+#drinks-section img:first-child {
+	display: none  !important;
+}
+
+.dark #drinks-section img:first-child {
+	display: block  !important;
+}
+
+.dark #drinks-section img:nth-child(2) {
+	display: none !important;
+}
+
+#drinks-section img:nth-child(2) {
+	display: block !important;
+}
+
+#drinks-section img:first-child {
+	display: none  !important;
+}
+
+.dark #drinks-section img:first-child {
+	display: block  !important;
+}
+
+.dark #drinks-section img:nth-child(2) {
+	display: none !important;
+}
+
+#drinks-section img:nth-child(2) {
+	display: block !important;
+}
+
+
+
+#drinks-section img {
+	background-image: url('/drinks-menu-light.png')  !important;
+}
+
+.dark #drinks-section img {
+	background-image: url('/drinks-menu.png')  !important;
+}
+
+.wave-1 {
+	display: none;
+}
+
+.dark .wave-1 {
+	display: block;
+}
+.dark .wave-2 {
+	display: none;
+}
+
+aside {
+	background: linear-gradient(180deg, #FBEEE6 0%, #FFFFFF 100%);
+}
+
+.dark aside {
+	background: #262830 !important; 
+}
+.dark #landing-hero {
+	background-image:url('/concept_background_night.png') !important;
+
+}
+
+#landing-hero {
+	background-image:url('/concept_background_day.png');
+
+}
+
+.concept-cuisine{
+	content:url("/2-cuisine-day.png");
+}
+
+.dark .concept-cuisine{
+	content:url("/2-cuisine-night.png") !important;
+}
+
+
+.concept-cocktail{
+	content:url("/3-cocktail-day.png");
+}
+
+.dark .concept-cocktail{
+	content:url("/3-cocktail-night.png") !important;
+}
+
+
+.menu-item-1{
+	content:url("/menu-item-1.png");
+}
+
+.dark .menu-item-1{
+	content:url("/menu-item-1-dark.png") !important;
+}
+
+.menu-item-2{
+	content:url("/menu-item-1.png");
+}
+
+.dark .menu-item-2{
+	content:url("/menu-item-2-dark.png") !important;
+}
+
+
+.blur {
+	background: linear-gradient(180deg, rgba(83, 83, 83, 0.18) 0%, #FFFFFF 105.15%);
+	backdrop-filter: blur(2px);
+    height: 100%;
+}
+
+.dark .blur {
+	background: linear-gradient(180deg, rgba(35, 35, 35, 0) 0%, #31387A 100%);
+}
+
+input::placeholder {
+	text-align: left;
+  }

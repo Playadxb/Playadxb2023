@@ -5,9 +5,9 @@
   "scripts": {
     "build": "npm run build:tailwind && rollup -c",
     "dev": "concurrently \"rollup -c -w\" \"npm run watch:tailwind\"",
-    "start": "sirv public",
+    "start": "sirv public -s --no-clear",
     "watch:tailwind": "postcss public/tailwind.css -o public/index.css -w",
-    "build:tailwind": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/index.css",
+    "build:tailwind": "postcss public/tailwind.css -o public/index.css",
     "serve": "serve public -p 80"
   },
   "devDependencies": {
@@ -22,10 +22,17 @@
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.0",
+    "sparkpost": "^2.1.4",
     "svelte": "^3.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0"
+    "@netlify/functions": "^1.0.0",
+    "@types/node": "^14.18.21",
+    "netlify-cli": "^10.7.1",
+    "page": "^1.11.6",
+    "sirv-cli": "^2.0.0",
+    "svelte-pdf-viewer": "^1.0.0",
+    "typescript": "^4.7.4"
   }
 }

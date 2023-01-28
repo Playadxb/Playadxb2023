@@ -1,0 +1,14 @@
+[dev]
+  command = "npm run dev"
+  port = 8888
+  targetPort = 8080
+  publish = "dist" 
+  autoLaunch = true
+  framework = "#custom"
+
+# The following redirect is intended for use with most SPAs
+# that handle routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
